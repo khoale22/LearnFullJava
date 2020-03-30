@@ -31,7 +31,7 @@ public class WalletService {
         return emptyWallet;
     }
 
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+   // @Transactional(propagation = Propagation.REQUIRES_NEW)
     public Wallet createWalletAndAttachToPerson2(Long personId) {
         Wallet emptyWallet = new Wallet();
         walletRepository.save(emptyWallet);

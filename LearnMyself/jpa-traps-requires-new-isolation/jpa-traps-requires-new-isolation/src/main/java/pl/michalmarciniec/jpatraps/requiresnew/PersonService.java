@@ -13,15 +13,21 @@ public class PersonService {
 
     private final PersonRepository personRepository;
     private final WalletService walletService;
+    private  final WalletRepository walletRepository;
 
     @Autowired
     @PersistenceContext
     private transient EntityManager entityManager;
 
+    /// KHI nam trong 1 @transactional thì walletRepository.save cũng chưa save vào DB phải kết thúc transactional đó
+    //walletRepository.save(emptyWallet); sẽ select id này trước xem có hay ko  , nếu có ko insert , ko throw
+    //   entityManager.persist(emptyWallet); se  Duplicate entry '5' for key 'PRIMARY' neu trung key , throw
+    // walletRepository va entityManager nhu nhau chỉ khác nhau this
     @Autowired
-    public PersonService(PersonRepository personRepository, WalletService walletService) {
+    public PersonService(PersonRepository personRepository, WalletService walletService, WalletRepository walletRepository) {
         this.personRepository = personRepository;
         this.walletService = walletService;
+        this.walletRepository = walletRepository;
     }
 
     // neu ko co  @Transactional(propagation = Propagation.REQUIRES_NEW)
@@ -33,17 +39,19 @@ public class PersonService {
     @Transactional
     public long createPerson(String name) {
         Person person = new Person(name);
-        personRepository.save(person);
-
+        personRepository.save(person);  // ko save hoac ko persist se loi ??????? vi phải save wallet truoc
+           // entityManager.persist(person);
         walletService.createWalletAndAttachToPerson(person);
 
-        return person.getId();
+        return 0;
     }
 
     @Transactional
     public long createPerson2(String name) {
         Person person = new Person(name);
-        personRepository.save(person);
+        entityManager.persist(person);
+
+        //personRepository.save(person);
 
         walletService.createWalletAndAttachToPerson2(person.getId());
 
@@ -118,6 +126,35 @@ public class PersonService {
         // person.setName("khoa2");
        // entityManager.getTransaction().commit();
         return 4;
+    }
+
+
+    @Transactional
+    public long createPerson7(String name, BigDecimal money) {
+        Person person =  personRepository.findByName("person");
+        entityManager.persist(person);
+        Wallet emptyWallet = new Wallet();
+      //  entityManager.persist(emptyWallet);
+        walletRepository.save(emptyWallet);
+        person.setWallet(emptyWallet);
+       // personRepository.save(person);
+        return 5;
+    }
+
+    @Transactional
+    public long saveNewWallet(String name) {
+       // Person person =  personRepository.findByName("pe1");
+      //  entityManager.persist(person);
+        Wallet emptyWallet = new Wallet();
+        emptyWallet.setId(5L);
+        emptyWallet.setAmount(new BigDecimal(2.00));
+          entityManager.persist(emptyWallet);
+     //   walletRepository.save(emptyWallet);
+
+
+       // person.setWallet(emptyWallet);
+        // personRepository.save(person);
+        return 5;
     }
 
 
