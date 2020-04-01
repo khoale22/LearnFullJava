@@ -21,8 +21,8 @@ public class JpaTrapsApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) {
 
-		//personService.saveNewWallet("trung2");
-		personService.createPerson2("trung2");
+		personService.saveNewWallet("trung2");
+		//personService.createPerson2("trung2");
 
 		//personService.createPerson7("trung2", new BigDecimal("-0.14"));
 

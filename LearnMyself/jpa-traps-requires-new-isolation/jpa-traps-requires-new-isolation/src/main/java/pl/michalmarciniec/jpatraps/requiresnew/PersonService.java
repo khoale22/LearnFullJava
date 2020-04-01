@@ -146,12 +146,10 @@ public class PersonService {
        // Person person =  personRepository.findByName("pe1");
       //  entityManager.persist(person);
         Wallet emptyWallet = new Wallet();
-        emptyWallet.setId(5L);
         emptyWallet.setAmount(new BigDecimal(2.00));
           entityManager.persist(emptyWallet);
+         // entityManager.flush();
      //   walletRepository.save(emptyWallet);
-
-
        // person.setWallet(emptyWallet);
         // personRepository.save(person);
         return 5;
