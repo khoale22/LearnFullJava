@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
+import javax.persistence.FlushModeType;
 import javax.persistence.PersistenceContext;
 import java.math.BigDecimal;
 
@@ -39,10 +40,10 @@ public class PersonService {
     @Transactional
     public long createPerson(String name) {
         Person person = new Person(name);
-        personRepository.save(person);  // ko save hoac ko persist se loi ??????? vi phải save wallet truoc
+       // personRepository.save(person);  // ko save hoac ko persist se ko save person
            // entityManager.persist(person);
         walletService.createWalletAndAttachToPerson(person);
-
+        personRepository.save(person);
         return 0;
     }
 
@@ -141,21 +142,64 @@ public class PersonService {
         return 5;
     }
 
+    ///Persist 1 đối tượng giống nhau 2 lần sẽ bị lỗi
+    /// khi persist sẽ sinh ra id nếu id đó là @GeneratedValue
+    /// persist only be called within a transaction AND  only be called on new objects.
     @Transactional
     public long saveNewWallet(String name) {
-       // Person person =  personRepository.findByName("pe1");
-      //  entityManager.persist(person);
         Wallet emptyWallet = new Wallet();
         emptyWallet.setAmount(new BigDecimal(2.00));
+
           entityManager.persist(emptyWallet);
-         // entityManager.flush();
-     //   walletRepository.save(emptyWallet);
-       // person.setWallet(emptyWallet);
-        // personRepository.save(person);
+        entityManager.detach(emptyWallet); // van save emptyWallet WHY
+        //  entityManager.persist(emptyWallet);
+        return 5;
+    }
+
+    //// phải detach truoc khi set value moi co tac dung
+
+    /// remove , delete  delete an object from the database  it marks the object to be deleted in the persistence context (transaction).  KHAC detach
+    @Transactional
+    public long saveNewWalletDetach(String name) {
+
+        Wallet wallet = walletRepository.findById(5L).get();
+        System.out.println("after find(): " + entityManager.contains(wallet));
+      //  wallet.setAmount(new BigDecimal(2.78));  //// NOT OK
+        entityManager.detach(wallet);
+        wallet.setAmount(new BigDecimal(2.78)); ///// OK
+        System.out.println("after detach(): " + entityManager.contains(wallet));
+        entityManager.merge(wallet);
+        wallet.setAmount(new BigDecimal(2.78));
+        return 5;
+    }
+
+    //Clear the persistence context, causing all managed entities to become detached.
+    // Changes made to entities that have not been flushed to the database will not be persisted.
+    @Transactional
+    public long saveNewWalletDetachAndClear(String name) {
+
+        Wallet wallet = walletRepository.findById(5L).get();
+        Wallet wallet2 = walletRepository.findById(4L).get();
+//        entityManager.detach(wallet);
+//        wallet.setAmount(new BigDecimal(8.99));  // khong update
+//        wallet2.setAmount(new BigDecimal(8.99)); //  update
+
+        entityManager.clear();
+        wallet.setAmount(new BigDecimal(8.99));  // khong update
+        wallet2.setAmount(new BigDecimal(8.99)); // khong update
+
         return 5;
     }
 
 
+    @Transactional
+    public long saveNewWalletFlush(String name) {
+        Wallet wallet = walletRepository.findById(1L).get();
+        entityManager.remove(wallet);
+        entityManager.flush();
+       // walletRepository.delete(wallet);
+        return 9;
+    }
 
 
 }

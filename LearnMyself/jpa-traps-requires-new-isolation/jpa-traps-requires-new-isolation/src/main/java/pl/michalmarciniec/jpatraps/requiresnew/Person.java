@@ -25,7 +25,7 @@ public class Person {
     @Column
     private String name;
 
-    @OneToOne  (fetch = FetchType.EAGER)
+    @OneToOne  (fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
     private Wallet wallet;
 
     protected Person() {
