@@ -6,6 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import pl.michalmarciniec.jpatraps.requiresnew.PersonService;
 
+import javax.persistence.EntityManager;
+import javax.persistence.FlushModeType;
+import javax.persistence.PersistenceContext;
 import java.math.BigDecimal;
 
 @SpringBootApplication
@@ -13,6 +16,10 @@ public class JpaTrapsApplication implements CommandLineRunner {
 
 	@Autowired
 	PersonService personService;
+
+	@Autowired
+	@PersistenceContext
+	private transient EntityManager entityManager;
 
 	public static void main(String[] args) {
 		SpringApplication.run(JpaTrapsApplication.class, args);
@@ -26,7 +33,10 @@ public class JpaTrapsApplication implements CommandLineRunner {
 
 		//personService.saveNewWalletDetachAndClear("trung2");
 
-		personService.saveNewWalletFlush("KHoa5r45");
+
+		//personService.saveNewWalletFlush2("KHoa5r45");
+
+		personService.saveNewWalletFlush3("KHoa5r45");
 
 
 		//personService.createPerson("trung2");

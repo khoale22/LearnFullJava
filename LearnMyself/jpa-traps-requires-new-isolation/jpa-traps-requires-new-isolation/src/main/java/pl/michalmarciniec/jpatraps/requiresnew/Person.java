@@ -7,7 +7,7 @@ public class Person {
 
     @Id
     @GeneratedValue
-    @Column
+    @Column(name = "id")
     private Long id;
 
     public void setId(Long id) {
@@ -22,10 +22,11 @@ public class Person {
         this.name = name;
     }
 
-    @Column
+    @Column(name = "name")
     private String name;
 
-    @OneToOne  (fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
+    @ManyToOne  (fetch = FetchType.EAGER)
+
     private Wallet wallet;
 
     protected Person() {

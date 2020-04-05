@@ -7,7 +7,12 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.FlushModeType;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 @Service
 public class PersonService {
@@ -158,7 +163,7 @@ public class PersonService {
 
     //// phải detach truoc khi set value moi co tac dung
 
-    /// remove , delete  delete an object from the database  it marks the object to be deleted in the persistence context (transaction).  KHAC detach
+    ///( remove = delete ) delete an object from the database  it marks the object to be deleted in the persistence context (transaction).  KHAC detach
     @Transactional
     public long saveNewWalletDetach(String name) {
 
@@ -194,12 +199,59 @@ public class PersonService {
 
     @Transactional
     public long saveNewWalletFlush(String name) {
+       // Person person = personRepository.findById(2L).get();
+
         Wallet wallet = walletRepository.findById(1L).get();
-        entityManager.remove(wallet);
-        entityManager.flush();
-       // walletRepository.delete(wallet);
+        wallet.getPersonList().clear();
+        //entityManager.flush();
+        Person person = new Person("fds",wallet);
+//        List<Person> personList = new ArrayList<>();
+//        personList.add(person);
+        //wallet.setPersonList(personList);  /// sai vì nếu setPersonList thì sẽ mất PersonList củ , throw exception
+        wallet.getPersonList().add(person);
+        entityManager.persist(wallet);
         return 9;
     }
+
+    @Transactional
+    public void saveNewWalletFlush2(String name) {
+
+        entityManager.setFlushMode(FlushModeType.COMMIT);
+        List<Person> employeeList = getNewEmployees();
+        for (Person employee : employeeList) {
+            entityManager.persist(employee);
+        }
+      //  entityManager.flush();
+        showPersistedITEmployees(entityManager);
+        int a = 5;
+    }
+    private static void showPersistedITEmployees(EntityManager em) {
+        Query query =
+                em.createQuery("from Person");
+        System.out.println("-- IT employees persisted list --");
+        List<Person> list = (List<Person>) query.getResultList();
+        list.forEach(System.out::println);
+    }
+
+    public List<Person> getNewEmployees() {
+        return Arrays.asList(new Person("Sara Dorsey", walletRepository.findById(1L).get()));
+
+    }
+
+    /// ở chế độ AUTO thì persit sẽ thêm đối tượng vào persistent context
+    /// ở chế độ COMMIT  thì ko , phai dùng entityManager.flush() thì mới thêm đối tượng vào persistent context
+    @Transactional
+    public void saveNewWalletFlush3(String name) {
+
+        entityManager.setFlushMode(FlushModeType.COMMIT);
+        Person person = new Person("test3424", walletRepository.findById(1L).get());
+        entityManager.persist(person);
+        entityManager.flush();
+        int a = 5;
+    }
+
+
+
 
 
 }

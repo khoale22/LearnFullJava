@@ -1,21 +1,25 @@
 package pl.michalmarciniec.jpatraps.requiresnew;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.List;
 
 @Entity
 public class Wallet {
 
     @Id
     @GeneratedValue
-    @Column
+    @Column(name = "id")
     private Long id;
 
-    @Column
+    @Column(name = "amount")
     private BigDecimal amount;
+
+    @OneToMany(mappedBy = "wallet", fetch = FetchType.EAGER,cascade = CascadeType.ALL, orphanRemoval = true)
+    private
+    List<Person> personList;
 
     public Wallet() {
         this.setAmount(BigDecimal.ZERO);
@@ -35,5 +39,13 @@ public class Wallet {
 
     public void setAmount(BigDecimal amount) {
         this.amount = amount;
+    }
+
+    public List<Person> getPersonList() {
+        return personList;
+    }
+
+    public void setPersonList(List<Person> personList) {
+        this.personList = personList;
     }
 }
