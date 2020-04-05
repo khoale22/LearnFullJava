@@ -36,12 +36,17 @@ public class JpaTrapsApplication implements CommandLineRunner {
 
 		//personService.saveNewWalletFlush2("KHoa5r45");
 
-		personService.saveNewWalletFlush3("KHoa5r45");
+		//personService.saveNewWalletFlush3("KHoa5r45");
 
 
 		//personService.createPerson("trung2");
 
 		//personService.createPerson7("trung2", new BigDecimal("-0.14"));
+
+	//	personService.testSaveHangloat1("trung2");
+		//personService.testSaveHangloat2("trung2");
+		//personService.testSaveHangloat3("trung");
+		personService.testSaveHangloat4("trung");
 
 	}
 }

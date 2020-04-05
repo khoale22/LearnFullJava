@@ -250,6 +250,88 @@ public class PersonService {
         int a = 5;
     }
 
+    @Transactional
+    public void testSaveHangloat1(String name) {
+        Wallet walletNewNoHaveInDB = new Wallet();
+
+//        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
+//        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
+
+  //      entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+   //     entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+
+        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+        entityManager.flush();
+        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+        String a = "fd";
+    }
+
+    @Transactional
+    public void testSaveHangloat2(String name) {
+        Wallet walletNewHaveInDB = walletRepository.findById(1L).get();
+
+//        walletRepository.save(walletNewHaveInDB);   // ko co/co Transactional ko loi
+//        walletRepository.save(walletNewHaveInDB);   // ko co/co Transactional ko loi
+
+//              entityManager.persist(walletNewHaveInDB);   // co Transactional ko loi
+//              entityManager.persist(walletNewHaveInDB);   // co Transactional ko loi
+
+        entityManager.persist(walletNewHaveInDB);   // co Transactional ko loi
+        entityManager.flush();
+        entityManager.persist(walletNewHaveInDB);   // co Transactional ko loi
+        String a = "fd";
+
+    }
+    //// OK du save 1 hay 2 đói tượng
+    @Transactional
+    public void testSaveHangloat3(String name) {
+        Wallet walletNewHaveInDB = walletRepository.findById(1L).get();
+
+        Person person = new Person();
+        person.setName(name);
+        person.setWallet(walletNewHaveInDB);
+
+        personRepository.save(person);
+
+        Person person2 = new Person();
+        person2.setName(name);
+        person2.setWallet(walletNewHaveInDB);
+
+        personRepository.save(person2);
+      //  personRepository.save(person);
+    }
+
+    //// ERROR :tại ///   person2.setWallet(walletNewNoHaveInDB);
+    // bởi vì đối tường walletNewNoHaveInDB để dc save ở personRepository.save(person); then bị detached
+    /// save ở đây nghĩa là phải dc insert vào db luôn chớ ko phải chỉ hiện câu insert (flush ko có tác dụng)
+    /// nên sau đó khi gọi  person2.setWallet(walletNewNoHaveInDB); thì đội tướng đả detached rồi
+    ////personRepository.save(person2); sẽ gọi save walletNewNoHaveInDB(detached) => error
+
+    ///NEU DC QUAN LÝ BOI Transactional sẽ khong bị lỗi vì chưa dc insert trong BD
+
+    /// TOM LAI DOI TUONG GỌI CÂU INSERT VÀ QUAN TRỌNG NHẤT phải dc insert trong db mới bị detached
+
+   // @Transactional
+    public void testSaveHangloat4(String name) {
+        Wallet walletNewNoHaveInDB = new Wallet();
+
+        Person person = new Person();
+        person.setName(name);
+        person.setWallet(walletNewNoHaveInDB);
+
+        personRepository.save(person);
+        entityManager.flush();
+
+        Person person2 = new Person();
+        person2.setName(name);
+        person2.setWallet(walletNewNoHaveInDB);
+
+        personRepository.save(person2);
+        //  personRepository.save(person);
+    }
+
+
+
 
 
 

@@ -17,9 +17,16 @@ public class Wallet {
     @Column(name = "amount")
     private BigDecimal amount;
 
-    @OneToMany(mappedBy = "wallet", fetch = FetchType.EAGER,cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "wallet", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     private
     List<Person> personList;
+
+//    @PrePersist
+//    public void prePersist() {
+//
+//        String test = "5";
+//    }
+
 
     public Wallet() {
         this.setAmount(BigDecimal.ZERO);
