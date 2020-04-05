@@ -28,7 +28,10 @@ public class PersonService {
     /// KHI nam trong 1 @transactional thì walletRepository.save cũng chưa save vào DB phải kết thúc transactional đó
     //walletRepository.save(emptyWallet); sẽ select id này trước xem có hay ko  , nếu có ko insert , ko throw
     //   entityManager.persist(emptyWallet); se  Duplicate entry '5' for key 'PRIMARY' neu trung key , throw
-    // walletRepository va entityManager nhu nhau chỉ khác nhau this
+    // walletRepository va entityManager nhu nhau chỉ khác nhau this AND ?
+    // walletRepository va entityManager  đều pass to persistent context
+
+
     @Autowired
     public PersonService(PersonRepository personRepository, WalletService walletService, WalletRepository walletRepository) {
         this.personRepository = personRepository;
@@ -257,12 +260,12 @@ public class PersonService {
 //        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
 //        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
 
-  //      entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
-   //     entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
 
-        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
-        entityManager.flush();
-        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+//        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+//        entityManager.flush();
+//        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
         String a = "fd";
     }
 
@@ -302,7 +305,7 @@ public class PersonService {
     }
 
     //// ERROR :tại ///   person2.setWallet(walletNewNoHaveInDB);
-    // bởi vì đối tường walletNewNoHaveInDB để dc save ở personRepository.save(person); then bị detached
+    // bởi vì đối tường walletNewNoHaveInDB đả dc save ở personRepository.save(person); then bị detached
     /// save ở đây nghĩa là phải dc insert vào db luôn chớ ko phải chỉ hiện câu insert (flush ko có tác dụng)
     /// nên sau đó khi gọi  person2.setWallet(walletNewNoHaveInDB); thì đội tướng đả detached rồi
     ////personRepository.save(person2); sẽ gọi save walletNewNoHaveInDB(detached) => error
@@ -310,8 +313,13 @@ public class PersonService {
     ///NEU DC QUAN LÝ BOI Transactional sẽ khong bị lỗi vì chưa dc insert trong BD
 
     /// TOM LAI DOI TUONG GỌI CÂU INSERT VÀ QUAN TRỌNG NHẤT phải dc insert trong db mới bị detached
+    /// ALL above is wrong
 
-   // @Transactional
+    /// person 1 + walletNewNoHaveInDB - > persistence context
+    /// person 2 + walletNewNoHaveInDB - > persistence context
+    /// nhu vay mỗi person luu tru 1 person có chua wallet giong nhau nên dc persist 2 vị trí trong persistence context
+    // nên lỗi
+ //    @Transactional
     public void testSaveHangloat4(String name) {
         Wallet walletNewNoHaveInDB = new Wallet();
 
@@ -320,11 +328,13 @@ public class PersonService {
         person.setWallet(walletNewNoHaveInDB);
 
         personRepository.save(person);
-        entityManager.flush();
+       // entityManager.flush();
 
         Person person2 = new Person();
         person2.setName(name);
+       // personRepository.
         person2.setWallet(walletNewNoHaveInDB);
+
 
         personRepository.save(person2);
         //  personRepository.save(person);
