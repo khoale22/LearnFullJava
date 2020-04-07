@@ -1,13 +1,20 @@
 package pl.michalmarciniec.jpatraps.requiresnew;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import org.hibernate.service.spi.InjectService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Configurable;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.List;
 
+@Configurable
 @Entity
 public class Wallet {
+
+    @Autowired
+    private transient PersonRepository personRepository ;
 
     @Id
     @GeneratedValue
@@ -21,11 +28,11 @@ public class Wallet {
     private
     List<Person> personList;
 
-//    @PrePersist
-//    public void prePersist() {
-//
-//        String test = "5";
-//    }
+    @PrePersist
+    public void prePersist() {
+        Person person = personRepository.findById(2L).get();
+        String test = "5";
+    }
 
 
     public Wallet() {

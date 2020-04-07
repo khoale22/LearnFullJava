@@ -11,6 +11,8 @@ import javax.persistence.FlushModeType;
 import javax.persistence.PersistenceContext;
 import java.math.BigDecimal;
 
+
+///TU DONG SCAN BEAN
 @SpringBootApplication
 public class JpaTrapsApplication implements CommandLineRunner {
 
@@ -46,7 +48,10 @@ public class JpaTrapsApplication implements CommandLineRunner {
 	//	personService.testSaveHangloat1("trung2");
 		//personService.testSaveHangloat2("trung2");
 		//personService.testSaveHangloat3("trung");
-		personService.testSaveHangloat4("trung");
+	//	personService.testSaveHangloat4("trung");
+
+		personService.testSavefdjsk("trung");
+
 
 	}
 }
