@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import pl.michalmarciniec.jpatraps.requiresnew.PersonService;
 
 import javax.persistence.EntityManager;
@@ -14,6 +15,8 @@ import java.math.BigDecimal;
 
 ///TU DONG SCAN BEAN
 @SpringBootApplication
+
+@EnableJpaRepositories
 public class JpaTrapsApplication implements CommandLineRunner {
 
 	@Autowired
