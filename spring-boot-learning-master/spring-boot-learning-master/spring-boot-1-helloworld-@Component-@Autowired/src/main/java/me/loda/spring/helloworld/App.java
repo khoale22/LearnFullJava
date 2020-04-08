@@ -12,6 +12,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import java.lang.reflect.Field;
+
 /**
  * Copyright 2019 {@author Loda} (https://loda.me).
  * This project is licensed under the MIT license.
@@ -46,5 +48,6 @@ public class App {
 
         // Kiểm tra 2 đối tượng
         System.out.println((girl.outfit == outfit));
+
     }
 }

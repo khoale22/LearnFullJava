@@ -58,6 +58,8 @@ public class DauHoiExtents {
 
         //printing the sum of elements in list
         System.out.print("Total sum is:"+sum(list2));
+        String str = "Hello Loda";
+        str.toUpperCase();
 
     }
 

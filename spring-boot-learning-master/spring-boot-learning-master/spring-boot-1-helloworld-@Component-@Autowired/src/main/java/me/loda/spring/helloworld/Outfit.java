@@ -15,6 +15,9 @@ package me.loda.spring.helloworld;
  * @since 5/11/2019
  * Github: https://github.com/loda-kun
  */
+///// Outfit outfit = context.getBean(Outfit.class);
+///// get dc bean vi Bikini co @component mà bikini implements lop nay
+
 public interface Outfit {
     public void wear();
 }
