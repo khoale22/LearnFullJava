@@ -1,0 +1,4 @@
+DlaptrinhSEM4ON TAP FULLHibernatebai3DemoUngDungHibernate ,maynytoone ,maymay
+D:\laptrinh\SEM4\TRANGWEBTULAM\CODE\shop
+D:\laptrinh\SEM4\ON TAP FULL\Hibernate\shopabc\shop2
+D:\laptrinh\SEM4\ON TAP FULL\Hibernate\WebApplication1

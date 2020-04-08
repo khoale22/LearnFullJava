@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+1 A
+Một khi có một lớp nào đó kế thừa lớp trừu tượng thì lớp con đó bắt buộc phải override lại nội dung tất cả các phương thức trừu tượng có trong lớp đó.
+1 B
+ác từ khóa như là public, private. Nếu chúng ta không điền gì thì mặc định nó sẽ là public.
+
+
+
+công nghệ Servlet được sử dụng để tạo ra ứng dụng web  (nằm ở phía máy chủ và tạo ra trang web động).
+
+2
+Một vòng đời của servlet có thể được định nghĩa là toàn bộ quá trình từ khi tạo ra đến khi hủy. Sau đây là tổng quan về vòng đời của servlet:
+
+Servlet được khởi tạo bằng cách gọi phương thức init ().
+Phương thức servlet service() được gọi để xử lý yêu cầu của khách hàng.
+Servlet được hủy bằng cách gọi phương thức destroy().
+Cuối cùng, servlet được thu thập bởi bộ sưu tập rác của JVM.
+
+3   
+ Cookie ck=new Cookie("uname",n);//creating cookie object  
+    response.addCookie(ck);//adding cookie in the response  
+  4 
+  
+Cookie	Session
+Cookie được lưu trữ trên trình duyệt của người dùng.	Session không được lưu trữ trong trình duyệt của người dùng.
+Dữ liệu cookie được lưu trữ ở phía máy khách.	Dữ liệu session được lưu trữ ở phía máy chủ.
+Dữ liệu cookie dễ dàng sửa đổi khi chúng được lưu trữ ở phía khách hàng.	Dữ liệu session không dễ dàng sửa đổi vì chúng được lưu trữ ở phía máy chủ.
+Dữ liệu cookie có sẵn trong trình duyệt của chúng ta đến khi hết hạn.	Dữ liệu session có sẵn cho trình duyệt chạy. Sau khi đóng trình duyệt sẽ mất thông tin session.
+5
+java bean
+đóng gói nhiều đối tượng vào một đối tượng, vì vậy chúng ta có thể truy cập đối tượng này từ nhiều nơi. Hơn nữa, nó cung cấp bảo trì dễ dàng.
+
+10. Mục đích của giao diện RequestDispatcher là gì?
+
+Giao diện RequestDispacher cung cấp khả năng gửi yêu cầu tới một tài nguyên khác có thể là html, servlet hoặc jsp.
+
+11. Có thể gọi một jsp từ servlet không?
+
+Có, một trong những cách là sử dụng giao diện RequestDispatcher, ví dụ:
+
+view sourceprint?
+RequestDispatcher rd=request.getRequestDispatcher("/login.jsp");  
+rd.forward(request, response);  
+12. Sự khác nhau giữa phương thức forward() và sendRedirect() là gì?
+
+forward()	sendRedirect()
+1) forward() gửi yêu cầu tương tự tới một tài nguyên khác.	1) sendRedirect() luôn luôn gửi yêu cầu mới vì nó sử dụng thanh URL của trình duyệt.
+2) forward() hoạt động ở phía server.	2) sendRedirect() hoạt động ở phía client.
+3) forward() chỉ hoạt động trong server.	3) sendRedirect() hoạt động bên trong và bên ngoài server.
+
+11 . JSP là gì?
+
+Công nghệ Java Server Pages (JSP) được sử dụng để tạo ra trang web động. 
+12 ;9. Làm thế nào để xử lý ngoại lệ trong JSP?
+
+Có hai cách để thực hiện xử lý ngoại lệ, một là bởi phần tử errorPage của chỉ thị trang,
+
+13: cách để bao gồm kết quả của một trang khác là gì
+
+<jsp:include page="printdate.jsp" />
+
+14 ; 16. Cách vô hiệu hoá session trong JSP?
+
+<%@ page session = "false"%>  
+
+
+
+
+
+
+<root>
+    
+</root>

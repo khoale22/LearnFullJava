@@ -1,0 +1,28 @@
+SELECT * FROM funtion.students;
+
+DELIMITER $$
+CREATE PROCEDURE testabd444(IN diem INT(11))
+BEGIN
+SELECT * FROM students WHERE marks >= diem ;
+END; $$
+DELIMITER;
+
+
+DELIMITER $$
+CREATE function khoatest3(diem INT) 
+RETURNS int
+BEGIN
+declare NAME_FOUND int;
+SELECT id INTO NAME_FOUND FROM students WHERE marks = diem ;	
+ RETURN NAME_FOUND;
+END; $$
+DELIMITER;
+
+
+
+call testabd(3)
+
+CREATE TRIGGER pre_check_post AFTER INSERT ON students
+FOR EACH ROW
+    INSERT INTO students (id , name, marks)
+    VALUES (5, 'test', 9);

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+https://codesharebta.wordpress.com/2014/12/02/phan-biet-toan-tu-va-phuong-thuc-equal-trong-java/
+
+Mình đã từng thực tập tại FPT ĐNẵng
+Qúa trình tuyển như sau :v 
+Lần 1: Test IQ, Tiếng Anh( mình làm í ẹ khoảng 50% mà vẫn được) , Java
+Lân 2: được gọi điện lên :))
++ Gioi thiệu bản thân
++ Họ chỉ hỏi các câu căn bản như:
+-. OOP: là gì, 4 tính chất, ví dụ, khác nhau giữa interface và abstract
+- CODE: hầu toàn các bài toán vòng for :)) , cẩn thận mấy câu kế thừa. SQL (distinct, view, function, cursor, store procedure, ...v.v.), nhớ có câu cộng 2 số int không dùng biến đệm hơi khoai haha
++ Nói chuyện chém gió :v
+
+
+Cho phép khai báo field 
+
+Không cho phép (chi static final)
+
+Các phương thức có thể có thân hàm hoặc không có thân hàm.
+
+Chỉ khai báo không có thân hàm
+
+Class dẫn xuất chỉ kế thừa được từ 1 abstract class và nhiều interface.
+
+Class triển khai có thể triển khai nhiều interface.
+
+Có chứa constructor
+
+Không có
+
+Các phương thức có từ khóa access modifier
+
+Không có
+
+
+
+Array	ArrayList
+1) Kích thước cố định.	Kích thước có thể thay đổi được.
+2) Có thể lưu trữ dữ liệu kiểu nguyên thủy và đối tượng.	Chỉ có thể lưu trữ dữ liệu kiểu đối tượng. Kể từ Java 5, kiểu nguyên thủy được tự động chuyển đổi trong các đối tượng được gọi là auto-boxing.
+3) Tốc độ lưu trữ và thao tác nhanh hơn.	Tốc độ lưu trữ vào thao tác chậm hơn.
+<root>
+    
+</root>
