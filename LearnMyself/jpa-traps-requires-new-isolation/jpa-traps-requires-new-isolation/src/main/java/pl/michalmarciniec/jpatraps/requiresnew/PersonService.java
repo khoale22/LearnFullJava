@@ -342,7 +342,6 @@ public class PersonService {
 
     public void testSavefdjsk(String name) {
         Wallet walletNewNoHaveInDB = new Wallet();
-
         walletRepository.save(walletNewNoHaveInDB);
         //  personRepository.save(person);
     }

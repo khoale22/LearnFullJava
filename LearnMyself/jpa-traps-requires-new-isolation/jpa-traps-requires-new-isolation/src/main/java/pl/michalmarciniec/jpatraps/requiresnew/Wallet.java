@@ -9,12 +9,8 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.List;
 
-@Configurable
 @Entity
 public class Wallet {
-
-    @Autowired
-    private transient PersonRepository personRepository ;
 
     @Id
     @GeneratedValue
@@ -30,7 +26,6 @@ public class Wallet {
 
     @PrePersist
     public void prePersist() {
-        Person person = personRepository.findById(2L).get();
         String test = "5";
     }
 

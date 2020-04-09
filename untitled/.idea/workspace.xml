@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../FILE-3/JAVA_NOTE.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/../FILE-3/JAVA_NOTE.rtf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-learning-master/spring-boot-learning-master/spring-boot-1-helloworld-@Component-@Autowired/src/main/java/me/loda/spring/helloworld/Outfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-learning-master/spring-boot-learning-master/spring-boot-1-helloworld-@Component-@Autowired/src/main/java/me/loda/spring/helloworld/Outfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/java/pl/michalmarciniec/jpatraps/JpaTrapsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/java/pl/michalmarciniec/jpatraps/JpaTrapsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-learning-master/spring-boot-learning-master/spring-security-example/src/main/java/me/loda/spring/springsecurity/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-learning-master/spring-boot-learning-master/spring-security-example/src/main/java/me/loda/spring/springsecurity/WebSecurityConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,20 +123,20 @@
     <session id="1139914358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="39" />
+          <entry key="java" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -154,21 +158,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="661">
               <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/FastFoodOrderBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="2831" column="18" selection-start-line="2831" selection-start-column="18" selection-end-line="2831" selection-end-column="18" />
-              <folding>
-                <element signature="e#111196#111197#0" expanded="true" />
-                <element signature="e#111251#111252#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -176,7 +194,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents22.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
+            <state relative-caret-position="1026">
               <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
             </state>
           </provider>
@@ -212,6 +230,12 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
+        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Audit-Cleanup" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Vestcom-Batch" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/ePlum-batch-monitor" value="PREVIEW" />
@@ -234,12 +258,6 @@
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-dao" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-model" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-util" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -314,6 +332,13 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="BuiderDesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="JavaCollectionAndHashCodeEquals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -337,9 +362,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,6 +500,7 @@
       <workItem from="1586315140744" duration="5558000" />
       <workItem from="1586341056145" duration="340000" />
       <workItem from="1586356331007" duration="630000" />
+      <workItem from="1586441727186" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -488,13 +513,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39439000" />
+    <option name="totallyTimeSpent" value="39801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -518,7 +543,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.035552192" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.035181236" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -819,31 +844,10 @@
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/TPBank.java" />
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/VietComBank.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/FastFoodOrderBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/OrderBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -906,28 +910,39 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Number.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Long.java" />
-    <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="661">
           <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="2831" column="18" selection-start-line="2831" selection-start-column="18" selection-end-line="2831" selection-end-column="18" />
-          <folding>
-            <element signature="e#111196#111197#0" expanded="true" />
-            <element signature="e#111251#111252#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1026">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/FastFoodOrderBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
