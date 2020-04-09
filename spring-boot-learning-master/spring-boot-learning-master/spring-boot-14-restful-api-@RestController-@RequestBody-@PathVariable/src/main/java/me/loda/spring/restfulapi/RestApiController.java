@@ -53,7 +53,7 @@ public class RestApiController {
     }
 
     @GetMapping("/todo")
-    public List<Todo> getTodoList() {
+    public List<Todo> getTodoList()  {
         return todoList;
     }
 
