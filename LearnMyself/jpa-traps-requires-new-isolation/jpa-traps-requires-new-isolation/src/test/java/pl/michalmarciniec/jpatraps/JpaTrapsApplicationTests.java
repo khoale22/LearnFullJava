@@ -11,20 +11,9 @@ import pl.michalmarciniec.jpatraps.requiresnew.WalletRepository;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class JpaTrapsApplicationTests {
-
-	@Autowired
-	WalletRepository walletRepository;
-
-	@Autowired
-	PersonService personService;
-
 	@Test
 	public void contextLoads() {
 	}
 
-	@Test
-	public void saveNewWallet() {
-		personService.testSavefdjsk("khoa");
-	}
 
 }

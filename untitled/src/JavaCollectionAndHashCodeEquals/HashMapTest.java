@@ -29,7 +29,7 @@ class Key{
         return false;
     }
 }
-
+////https://viettuts.vn/java/phuong-thuc-equals-va-hashcode-trong-java LINK
 public class HashMapTest {
     public static void main(String[] args) {
         // 1 BUCKET CHỈ CHỨA 1 HASH

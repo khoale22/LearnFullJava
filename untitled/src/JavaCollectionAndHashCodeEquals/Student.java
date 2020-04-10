@@ -15,13 +15,13 @@ import java.util.Objects;
 
 class Student{
 
-//    @Override
-//    public int hashCode() {
-//        int hash = 7;
-//        hash = 97 * hash + Objects.hashCode(this.name);
-//        hash = 97 * hash + this.age;
-//        return hash;
-//    }
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 97 * hash + Objects.hashCode(this.name);
+        hash = 97 * hash + this.age;
+        return hash;
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -55,9 +55,9 @@ class Student{
     public static void main(String[] args) {
         //36671264
         Student student = new Student("khoa3", 1);
-        System.out.println(student.hashCode());
+        //System.out.println(student.hashCode());
         Student student2 = new Student("khoa3", 1);
-        System.out.println(student2.hashCode());
+       // System.out.println(student2.hashCode());
 
         System.out.println(student.equals(student2));
         System.out.println(student.hashCode() == student2.hashCode());
