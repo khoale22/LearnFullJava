@@ -1,6 +1,8 @@
 package JavaCollectionAndHashCodeEquals;
 
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 
 class StudentTest {
@@ -54,8 +56,18 @@ public class HashSetNew {
         setStudents.add(student2);
         setStudents.add(student3);
 
+        List<StudentTest> setStudents2 = new LinkedList<StudentTest>();
+        setStudents2.add(student1);
+        setStudents2.add(student2);
+        setStudents2.add(student3);
+
         // in các phần tử của set ra màn hình
         for (StudentTest student : setStudents) {
+            System.out.println(student);
+        }
+
+        // in các phần tử của list ra màn hình
+        for (StudentTest student : setStudents2) {
             System.out.println(student);
         }
     }

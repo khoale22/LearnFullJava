@@ -13,10 +13,9 @@ import javax.persistence.PersistenceContext;
 import java.math.BigDecimal;
 
 
-///TU DONG SCAN BEAN
-@SpringBootApplication
 
-@EnableJpaRepositories
+@SpringBootApplication
+//@EnableJpaRepositories
 public class JpaTrapsApplication implements CommandLineRunner {
 
 	@Autowired
@@ -53,8 +52,9 @@ public class JpaTrapsApplication implements CommandLineRunner {
 		//personService.testSaveHangloat3("trung");
 	//	personService.testSaveHangloat4("trung");
 
-		personService.testSavefdjsk("trung");
+		//personService.testSavefdjsk("trung");
 
+		personService.testsaveMergeUpdate();
 
 	}
 }

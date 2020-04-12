@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KienThucLa/AnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FILE-3/JAVAFULL.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/../FILE-3/JAVAFULL.rtf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/JpaTrapsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/JpaTrapsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Wallet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/java/pl/michalmarciniec/jpatraps/JpaTrapsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/java/pl/michalmarciniec/jpatraps/JpaTrapsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/JavaCollectionAndHashCodeEquals/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/JavaCollectionAndHashCodeEquals/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/KienThucLa/DauHoiExtents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/KienThucLa/DauHoiExtents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/JavaCollectionAndHashCodeEquals/HashSetNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/JavaCollectionAndHashCodeEquals/HashSetNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/JavaCollectionAndHashCodeEquals/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/JavaCollectionAndHashCodeEquals/StudentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,31 +96,33 @@
     <session id="790300802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="536" />
+          <entry key="java" value="800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="536" />
+          <entry key="JAVA" value="800" />
         </counts>
       </usages-collector>
     </session>
@@ -156,45 +159,51 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="untitled" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashMapTest.java">
+        <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="944">
+              <caret line="66" column="9" selection-start-line="64" selection-start-column="7" selection-end-line="66" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#824#837#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="480">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java">
+        <entry file="file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="308">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1299#1312#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,12 +239,6 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Audit-Cleanup" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Vestcom-Batch" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/ePlum-batch-monitor" value="PREVIEW" />
@@ -258,6 +261,12 @@
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-dao" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-model" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-util" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -285,10 +294,12 @@
         <option value="$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Order.java" />
         <option value="$PROJECT_DIR$/src/KienThucLa/StringThreeDots.java" />
         <option value="$PROJECT_DIR$/src/KienThucLa/DauHoiExtents22.java" />
-        <option value="$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java" />
         <option value="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/Student.java" />
         <option value="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashMapTest.java" />
         <option value="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java" />
+        <option value="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java" />
+        <option value="$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java" />
+        <option value="$PROJECT_DIR$/src/KienThucLa/AnotationTest.java" />
       </list>
     </option>
   </component>
@@ -298,7 +309,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="954" />
     <option name="height" value="1047" />
@@ -312,6 +323,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,33 +341,7 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="BuiderDesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaCollectionAndHashCodeEquals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="KienThucLa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KienThucLa" type="462c0819:PsiDirectoryNode" />
-              <item name="StringThreeDots.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
@@ -364,13 +351,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586512936205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586684526927" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -397,9 +383,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashSetNew">
-    <configuration name="DauHoiExtents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KienThucLa.DauHoiExtents" />
+  <component name="RunManager" selected="Application.AnotaionTest">
+    <configuration name="AnotaionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KienThucLa.AnotaionTest" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -411,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DauHoiExtents22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KienThucLa.DauHoiExtents22" />
+    <configuration name="ArrayListLinkket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollectionAndHashCodeEquals.ArrayListLinkket" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KienThucLa.*" />
+          <option name="PATTERN" value="JavaCollectionAndHashCodeEquals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -450,33 +436,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollectionAndHashCodeEquals.Student" />
+    <configuration name="PolymorphicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PolymorphicTest" />
       <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaCollectionAndHashCodeEquals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DauHoiExtents" />
-      <item itemvalue="Application.DauHoiExtents22" />
-      <item itemvalue="Application.Student" />
       <item itemvalue="Application.HashMapTest" />
       <item itemvalue="Application.HashSetNew" />
+      <item itemvalue="Application.ArrayListLinkket" />
+      <item itemvalue="Application.PolymorphicTest" />
+      <item itemvalue="Application.AnotaionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnotaionTest" />
+        <item itemvalue="Application.PolymorphicTest" />
+        <item itemvalue="Application.ArrayListLinkket" />
         <item itemvalue="Application.HashSetNew" />
         <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.DauHoiExtents" />
-        <item itemvalue="Application.DauHoiExtents22" />
       </list>
     </recent_temporary>
   </component>
@@ -503,6 +483,11 @@
       <workItem from="1586356331007" duration="630000" />
       <workItem from="1586441727186" duration="362000" />
       <workItem from="1586503238189" duration="5408000" />
+      <workItem from="1586532210811" duration="616000" />
+      <workItem from="1586568933986" duration="4675000" />
+      <workItem from="1586676797583" duration="1863000" />
+      <workItem from="1586685103810" duration="594000" />
+      <workItem from="1586697405804" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -515,37 +500,46 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45209000" />
+    <option name="totallyTimeSpent" value="52983000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10927505" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50247526" side_tool="true" weight="0.1633888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1603467" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22643554" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3391116" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7639939" weight="0.17512275" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.84114975" visible="true" weight="0.31260228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.07528642" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.15885022" side_tool="true" visible="true" weight="0.22913256" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.035181236" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.0098335855" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -680,92 +674,170 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java</url>
-          <line>24</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java</url>
-          <line>39</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>41</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>57</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>31</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>32</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>33</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>34</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
-          <line>37</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java</url>
           <line>455</line>
-          <properties class="java.util.Map.Entry" method="hashCode">
+          <properties class="java.util.Map.Entry">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="13" />
@@ -773,7 +845,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java</url>
           <line>437</line>
-          <properties class="java.util.Map.Entry" method="equals">
+          <properties class="java.util.Map.Entry">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="14" />
@@ -798,14 +870,28 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="student2.hashCode()" language="JAVA" />
-        <watch expression="student1.hashCode()" language="JAVA" />
-        <watch expression="student3.hashCode()" language="JAVA" />
+        <watch expression="fields[0].getAnnotation(Normalize.class)" language="JAVA" />
+        <watch expression="fields[1].getAnnotation(Normalize.class)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>fields[1].getAnnotation(Normalize.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fields[0].getAnnotation(Normalize.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fields[i].getAnnotation(Normalize.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>student3.hashCode()</expression-string>
         <language-id>JAVA</language-id>
@@ -838,21 +924,6 @@
       </expression>
       <expression>
         <expression-string>this.getIndex() - o.getIndex()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cityMap</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>student2.hashcode()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Objects.hashCode(&quot;khoa1&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -956,13 +1027,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Long.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -998,45 +1062,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java" />
     <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="272">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="288">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#469#470#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
             <element signature="e#637#638#0" expanded="true" />
             <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#824#837#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="754" column="16" selection-start-line="754" selection-start-column="16" selection-end-line="754" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="944">
+          <caret line="66" column="9" selection-start-line="64" selection-start-column="7" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1299#1312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KienThucLa/DauHoiExtents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.hibernate.service.spi.InjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.beans.factory.annotation.Value;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -28,7 +29,7 @@ public class Wallet {
     public void prePersist() {
         String test = "5";
     }
-
+    
 
     public Wallet() {
         this.setAmount(BigDecimal.ZERO);

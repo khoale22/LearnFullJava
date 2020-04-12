@@ -1,6 +1,7 @@
 package pl.michalmarciniec.jpatraps.requiresnew;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -16,6 +17,9 @@ import java.util.List;
 
 @Service
 public class PersonService {
+
+    @Value("${test.name}")
+    private String nameTest ;
 
     private final PersonRepository personRepository;
     private final WalletService walletService;
@@ -341,9 +345,30 @@ public class PersonService {
     }
 
     public void testSavefdjsk(String name) {
+
         Wallet walletNewNoHaveInDB = new Wallet();
         walletRepository.save(walletNewNoHaveInDB);
         //  personRepository.save(person);
+    }
+
+    @Transactional
+    public void testsaveMergeUpdate(){
+//        Wallet walletNewNoHaveInDB = new Wallet();
+//        entityManager.persist(walletNewNoHaveInDB);
+//        entityManager.detach(walletNewNoHaveInDB);
+//        entityManager.persist(walletNewNoHaveInDB);  /// lỗi detached entity passed to persist
+        String a = "-----------------------------";
+
+//        Wallet walletNewNoHaveInDB = new Wallet();
+//        entityManager.persist(walletNewNoHaveInDB);
+//        entityManager.detach(walletNewNoHaveInDB);
+//        walletNewNoHaveInDB.setAmount(new BigDecimal(99));
+//       Wallet walletNew = entityManager.merge(walletNewNoHaveInDB);
+        String b = "-----------------------------";
+
+        Wallet walletNewNoHaveInDB = new Wallet();
+        walletNewNoHaveInDB.setAmount(new BigDecimal(99));
+        entityManager.merge(walletNewNoHaveInDB);
     }
 
 
