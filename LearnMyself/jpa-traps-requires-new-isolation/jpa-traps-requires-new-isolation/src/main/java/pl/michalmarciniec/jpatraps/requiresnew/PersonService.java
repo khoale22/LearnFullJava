@@ -25,7 +25,7 @@ public class PersonService {
     @Value("${test.name}")
     private String nameTest ;
 
-    private String name ;
+    private String nameA ;
 
     private final PersonRepository personRepository;
     private final WalletService walletService;

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/student.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/JpaTrapsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/JpaTrapsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FILE-3/CAUHINH.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../FILE-3/CAUHINH.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/Wallet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/student.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/resources/student.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -197,8 +193,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="16">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -354,7 +350,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586684526927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586791528081" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -487,7 +483,7 @@
       <workItem from="1586685103810" duration="594000" />
       <workItem from="1586697405804" duration="26000" />
       <workItem from="1586700692609" duration="5000" />
-      <workItem from="1586789473707" duration="1116000" />
+      <workItem from="1586789473707" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -500,7 +496,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54104000" />
+    <option name="totallyTimeSpent" value="54970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,6 +509,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.1096823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1118,8 +1115,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KienThucLa/AnotationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="16">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
