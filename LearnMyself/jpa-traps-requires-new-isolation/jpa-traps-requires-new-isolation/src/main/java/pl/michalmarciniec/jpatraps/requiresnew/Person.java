@@ -19,7 +19,11 @@ public class Person {
     private Long wallet_id;
 
     /// referencedColumnName có thể có hoặc ko như nhau vì hibernate sẽ tự map đến khóa chính của wallet
-    @ManyToOne  (fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    //cascade = CascadeType.ALL) // lam funtion createPerson bi Lỗi, Detached entity passed to persist vì save lần 2 đối tượng
+    // wallet , lần đầu tiên là đối tượng mới nên mới dc persit vào persistent context lần 2 ở transacnal(1) wallet này ko phải new
+    // nên save bị lỗi
+    //https://stackoverflow.com/questions/13370221/persistentobjectexception-detached-entity-passed-to-persist-thrown-by-jpa-and-h
+    @ManyToOne  (fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = false, updatable = false )
     private Wallet wallet;
 

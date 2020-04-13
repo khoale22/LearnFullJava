@@ -2,6 +2,8 @@ package pl.michalmarciniec.jpatraps.requiresnew;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -16,10 +18,14 @@ import java.util.LinkedList;
 import java.util.List;
 
 @Service
+@PropertySource("classpath:student.properties")
+@ConfigurationProperties("student")
 public class PersonService {
 
     @Value("${test.name}")
     private String nameTest ;
+
+    private String name ;
 
     private final PersonRepository personRepository;
     private final WalletService walletService;
@@ -34,6 +40,7 @@ public class PersonService {
     //   entityManager.persist(emptyWallet); se  Duplicate entry '5' for key 'PRIMARY' neu trung key , throw
     // walletRepository va entityManager nhu nhau chỉ khác nhau this AND ?
     // walletRepository va entityManager  đều pass to persistent context
+    // 1 Transactional có 1 persistent context riêng và nó chỉ lưu vào persistent context ĐỐI TƯỢNG NEW khi persist/save
 
 
     @Autowired
@@ -52,10 +59,10 @@ public class PersonService {
     @Transactional
     public long createPerson(String name) {
         Person person = new Person(name);
-       // personRepository.save(person);  // ko save hoac ko persist se ko save person
+        personRepository.save(person);  // ko save hoac ko persist se ko save person
            // entityManager.persist(person);
-        walletService.createWalletAndAttachToPerson(person);
-        personRepository.save(person);
+       walletService.createWalletAndAttachToPerson(person);
+       // personRepository.save(person);
         return 0;
     }
 
@@ -170,11 +177,14 @@ public class PersonService {
 
     //// phải detach truoc khi set value moi co tac dung
 
+    //A detached object is one that is not managed in the current persistence context.
     ///( remove = delete ) delete an object from the database  it marks the object to be deleted in the persistence context (transaction).  KHAC detach
     @Transactional
     public long saveNewWalletDetach(String name) {
 
-        Wallet wallet = walletRepository.findById(5L).get();
+        Wallet wallet = walletRepository.findById(2L).get();
+        // TUONG TU  Wallet wallet = new Wallet();
+        /// entityManager.persist(wallet);
         System.out.println("after find(): " + entityManager.contains(wallet));
       //  wallet.setAmount(new BigDecimal(2.78));  //// NOT OK
         entityManager.detach(wallet);
@@ -331,16 +341,18 @@ public class PersonService {
         person.setName(name);
         person.setWallet(walletNewNoHaveInDB);
 
+        System.out.println("after find()3: " + entityManager.contains(walletNewNoHaveInDB));
         personRepository.save(person);
        // entityManager.flush();
+        System.out.println("after find()3: " + entityManager.contains(walletNewNoHaveInDB));
 
         Person person2 = new Person();
         person2.setName(name);
        // personRepository.
         person2.setWallet(walletNewNoHaveInDB);
-
-
-        personRepository.save(person2);
+        System.out.println("after find()3: " + entityManager.contains(walletNewNoHaveInDB));
+        personRepository.save(person2); /// detached entity passed to persist
+        System.out.println("after find()3: " + entityManager.contains(walletNewNoHaveInDB));
         //  personRepository.save(person);
     }
 

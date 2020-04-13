@@ -25,11 +25,11 @@ public class Wallet {
     private
     List<Person> personList;
 
-    @PrePersist
-    public void prePersist() {
-        String test = "5";
-    }
-    
+//    @PrePersist
+//    public void prePersist() {
+//        String test = "5";
+//    }
+//
 
     public Wallet() {
         this.setAmount(BigDecimal.ZERO);
