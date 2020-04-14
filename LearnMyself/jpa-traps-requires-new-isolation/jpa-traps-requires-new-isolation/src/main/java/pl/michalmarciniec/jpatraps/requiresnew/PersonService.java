@@ -40,7 +40,7 @@ public class PersonService {
     //   entityManager.persist(emptyWallet); se  Duplicate entry '5' for key 'PRIMARY' neu trung key , throw
     // walletRepository va entityManager nhu nhau chỉ khác nhau this AND ?
     // walletRepository va entityManager  đều pass to persistent context
-    // 1 Transactional có 1 persistent context riêng và nó chỉ lưu vào persistent context ĐỐI TƯỢNG NEW/GET TỪ DB khi persist/save
+    // 1 Transactional có 1 persistent context riêng và nó chỉ lưu vào persistent context ĐỐI TƯỢNG NEW/GET TỪ DB -- khi persist/save
 
 
     @Autowired
@@ -87,6 +87,7 @@ public class PersonService {
         /// wallet se khong dc set money boi vi nó đả dc quản lý bởi 1 transactional khác (REQUIRES_NEW)
         /// cho nên sẽ ko thể thấy dc sự thay đổi data này
         wallet.setAmount(money);
+        entityManager.merge(wallet);
         person.setWallet(wallet);
 
         return person.getId();
@@ -333,7 +334,7 @@ public class PersonService {
     /// person 2 + walletNewNoHaveInDB - > persistence context
     /// nhu vay mỗi person luu tru 1 person có chua wallet giong nhau nên dc persist 2 vị trí trong persistence context
     // nên lỗi
- //    @Transactional
+     @Transactional
     public void testSaveHangloat4(String name) {
         Wallet walletNewNoHaveInDB = new Wallet();
 
@@ -366,7 +367,7 @@ public class PersonService {
     @Transactional
     public void testsaveMergeUpdate(){
 //        Wallet walletNewNoHaveInDB = new Wallet();
-//        entityManager.persist(walletNewNoHaveInDB);
+//        entityManager.persist(walletNewNoHaveInDB);   // neu bỏ dòng này ko lỗi detached entity passed to persist.
 //        entityManager.detach(walletNewNoHaveInDB);
 //        entityManager.persist(walletNewNoHaveInDB);  /// lỗi detached entity passed to persist
         String a = "-----------------------------";
@@ -417,6 +418,16 @@ public class PersonService {
 
     }
 
+    @Transactional
+    public void testDetach(){
+        Wallet walletNewNoHaveInDB = new Wallet();
+        entityManager.persist(walletNewNoHaveInDB);   // neu bỏ dòng này ko lỗi detached entity passed to persist.
+        entityManager.detach(walletNewNoHaveInDB);
+        //entityManager.merge(walletNewNoHaveInDB); // KO cO tac dụng
+        entityManager.persist(walletNewNoHaveInDB); /// detached entity passed to persist.
+        String a = "e43";
+
+    }
 
 
 
