@@ -15,7 +15,7 @@ public class Person {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "wallet_id")
+    @Column(name = "wallet_id", insertable = false, updatable = false)
     private Long wallet_id;
 
     /// referencedColumnName có thể có hoặc ko như nhau vì hibernate sẽ tự map đến khóa chính của wallet
@@ -24,7 +24,7 @@ public class Person {
     // nên save bị lỗi
     //https://stackoverflow.com/questions/13370221/persistentobjectexception-detached-entity-passed-to-persist-thrown-by-jpa-and-h
     @ManyToOne  (fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = false, updatable = false )
+    @JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = true, updatable = true )
     private Wallet wallet;
 
     protected Person() {

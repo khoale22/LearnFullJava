@@ -43,7 +43,7 @@ public class JpaTrapsApplication implements CommandLineRunner {
 		//personService.saveNewWalletFlush3("KHoa5r45");
 
 
-	//	personService.createPerson("trung2");
+		//personService.createPerson("trung2");
 
 		//personService.createPerson7("trung2", new BigDecimal("-0.14"));
 
@@ -54,7 +54,9 @@ public class JpaTrapsApplication implements CommandLineRunner {
 
 		//personService.testSavefdjsk("trung");
 
-		personService.testsaveMergeUpdate();
+		//personService.testsaveMergeUpdate();
+		//personService.detachBeforeUpdate();
+		personService.detachBeforeUpdate2();
 
 	}
 }

@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.PersistenceContext;
 import java.math.BigDecimal;
 
 @Service
@@ -15,6 +16,10 @@ public class WalletService {
 
     private final WalletRepository walletRepository;
     private final PersonRepository personRepository;
+
+    @Autowired
+    @PersistenceContext
+    private transient EntityManager entityManager;
 
     @Autowired
     public WalletService(WalletRepository walletRepository, PersonRepository personRepository) {

@@ -40,7 +40,7 @@ public class PersonService {
     //   entityManager.persist(emptyWallet); se  Duplicate entry '5' for key 'PRIMARY' neu trung key , throw
     // walletRepository va entityManager nhu nhau chỉ khác nhau this AND ?
     // walletRepository va entityManager  đều pass to persistent context
-    // 1 Transactional có 1 persistent context riêng và nó chỉ lưu vào persistent context ĐỐI TƯỢNG NEW khi persist/save
+    // 1 Transactional có 1 persistent context riêng và nó chỉ lưu vào persistent context ĐỐI TƯỢNG NEW/GET TỪ DB khi persist/save
 
 
     @Autowired
@@ -61,7 +61,7 @@ public class PersonService {
         Person person = new Person(name);
         personRepository.save(person);  // ko save hoac ko persist se ko save person
            // entityManager.persist(person);
-       walletService.createWalletAndAttachToPerson(person);
+       Wallet emptyWallet = walletService.createWalletAndAttachToPerson(person);
        // personRepository.save(person);
         return 0;
     }
@@ -381,6 +381,40 @@ public class PersonService {
         Wallet walletNewNoHaveInDB = new Wallet();
         walletNewNoHaveInDB.setAmount(new BigDecimal(99));
         entityManager.merge(walletNewNoHaveInDB);
+    }
+
+    //https://xebia.com/blog/jpa-implementation-patterns-saving-detached-entities/
+////////// WHY detach before update
+    @Transactional
+    public void detachBeforeUpdate(){
+
+      // Wallet walletNewHaveInDB = walletRepository.findById(1L).get();
+
+        Wallet walletNewHaveInDB = new Wallet();
+
+       entityManager.detach(walletNewHaveInDB);
+   //    walletNewHaveInDB.setAmount(new BigDecimal(55));
+        entityManager.persist(walletNewHaveInDB);  // OK
+      // walletRepository.save(walletNewHaveInDB);
+        String a = "66";
+    }
+
+    @Transactional
+    public void detachBeforeUpdate2(){
+        List<Wallet> wallets = new LinkedList<Wallet>();
+
+        Wallet wallet1 = walletRepository.findById(1L).get();
+        entityManager.detach(wallet1);
+        wallet1.setAmount(new BigDecimal(555));
+        //wallet1.setAmount(new BigDecimal(44));
+
+        Wallet wallet2  = new Wallet();
+
+        wallets.add(wallet1);
+        wallets.add(wallet2);
+
+        walletRepository.saveAll(wallets);
+
     }
 
 
