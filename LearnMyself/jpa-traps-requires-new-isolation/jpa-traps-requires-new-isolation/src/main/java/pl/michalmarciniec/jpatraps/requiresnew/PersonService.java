@@ -423,8 +423,9 @@ public class PersonService {
         Wallet walletNewNoHaveInDB = new Wallet();
         entityManager.persist(walletNewNoHaveInDB);   // neu bỏ dòng này ko lỗi detached entity passed to persist.
         entityManager.detach(walletNewNoHaveInDB);
-        //entityManager.merge(walletNewNoHaveInDB); // KO cO tac dụng
-        entityManager.persist(walletNewNoHaveInDB); /// detached entity passed to persist.
+        entityManager.merge(walletNewNoHaveInDB); // KO cO tac dụng
+       // entityManager.persist(walletNewNoHaveInDB); /// detached entity passed to persist.
+        //walletRepository.save(walletNewNoHaveInDB);   /// SAVE OK, PERSTIS LOI no have detached entity passed to persist.
         String a = "e43";
 
     }
