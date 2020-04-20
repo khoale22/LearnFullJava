@@ -23,6 +23,7 @@ public class Counter {
     } 
      
     public void visit() {
+        abc();
         test++;
         count++;
         this.print();

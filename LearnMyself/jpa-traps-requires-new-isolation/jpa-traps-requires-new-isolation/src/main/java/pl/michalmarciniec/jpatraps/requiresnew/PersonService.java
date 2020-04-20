@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
@@ -239,11 +240,13 @@ public class PersonService {
         for (Person employee : employeeList) {
             entityManager.persist(employee);
         }
-      //  entityManager.flush();
+        entityManager.flush();
         showPersistedITEmployees(entityManager);
         int a = 5;
     }
-    private static void showPersistedITEmployees(EntityManager em) {
+
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    void showPersistedITEmployees(EntityManager em) {
         Query query =
                 em.createQuery("from Person");
         System.out.println("-- IT employees persisted list --");
