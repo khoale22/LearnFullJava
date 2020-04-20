@@ -38,7 +38,7 @@ public class JpaTrapsApplication implements CommandLineRunner {
 		//personService.saveNewWalletDetachAndClear("trung2");
 
 
-		personService.saveNewWalletFlush2("KHoa5r45");
+		//personService.saveNewWalletFlush2("KHoa5r45");
 
 		//personService.saveNewWalletFlush3("KHoa5r45");
 
@@ -56,8 +56,10 @@ public class JpaTrapsApplication implements CommandLineRunner {
 
 		//personService.testsaveMergeUpdate();
 		//personService.detachBeforeUpdate();
-		//personService.detachBeforeUpdate2();
+		personService.detachBeforeUpdate2();
 	//	personService.testDetach();
+
+		//personService.readOnlyTEst();
 
 	}
 }

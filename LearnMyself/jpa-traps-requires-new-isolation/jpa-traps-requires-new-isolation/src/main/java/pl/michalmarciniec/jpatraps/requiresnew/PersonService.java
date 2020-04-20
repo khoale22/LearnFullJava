@@ -79,6 +79,7 @@ public class PersonService {
         return person.getId();
     }
     @Transactional
+
     public long createPerson3(String name, BigDecimal money) {
         Person person = new Person(name);
         personRepository.save(person);
@@ -407,17 +408,24 @@ public class PersonService {
     public void detachBeforeUpdate2(){
         List<Wallet> wallets = new LinkedList<Wallet>();
 
-        Wallet wallet1 = walletRepository.findById(1L).get();
+        Wallet wallet1 = walletRepository.findById(2L).get();
         entityManager.detach(wallet1);
         wallet1.setAmount(new BigDecimal(555));
         //wallet1.setAmount(new BigDecimal(44));
 
         Wallet wallet2  = new Wallet();
 
+        Wallet wallet3  = new Wallet();
+
         wallets.add(wallet1);
         wallets.add(wallet2);
+        entityManager.detach(wallet3);
+        wallets.add(wallet3);
 
         walletRepository.saveAll(wallets);
+
+
+
 
     }
 
@@ -430,8 +438,15 @@ public class PersonService {
        // entityManager.persist(walletNewNoHaveInDB); /// detached entity passed to persist.
         //walletRepository.save(walletNewNoHaveInDB);   /// SAVE OK, PERSTIS LOI no have detached entity passed to persist.
         String a = "e43";
-
     }
+
+    @Transactional(readOnly = true)
+    public void readOnlyTEst(){
+        Wallet wallet = walletRepository.findById(5L).get();
+        wallet.setAmount(new BigDecimal(77));
+        walletRepository.save(wallet);
+    }
+
 
 
 
