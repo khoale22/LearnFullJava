@@ -42,6 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return new JwtAuthenticationFilter();
     }
 
+    //CHAY VAO ĐÂY step 2
     @Bean(BeanIds.AUTHENTICATION_MANAGER)
     @Override
     public AuthenticationManager authenticationManagerBean() throws Exception {
@@ -49,6 +50,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return super.authenticationManagerBean();
     }
 
+    //CHAY VAO ĐÂY step 1
     @Bean
     public PasswordEncoder passwordEncoder() {
         // Password encoder, để Spring Security sử dụng mã hóa mật khẩu người dùng

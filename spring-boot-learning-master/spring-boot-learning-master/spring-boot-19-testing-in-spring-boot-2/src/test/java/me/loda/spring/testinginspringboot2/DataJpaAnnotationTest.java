@@ -5,6 +5,7 @@ import javax.sql.DataSource;
 
 import org.assertj.core.api.Assertions;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,7 @@ public class DataJpaAnnotationTest {
 
     @Test
     public void allComponentAreNotNull() {
+        // assertThat kiểm tra cái gì đó đúng hay ko
         Assertions.assertThat(dataSource).isNotNull();
         Assertions.assertThat(jdbcTemplate).isNotNull();
         Assertions.assertThat(entityManager).isNotNull();

@@ -431,13 +431,26 @@ public class PersonService {
 
     @Transactional
     public void testDetach(){
+//        Wallet walletNewNoHaveInDB = new Wallet();
+//        entityManager.persist(walletNewNoHaveInDB);   // neu bỏ dòng này ko lỗi detached entity passed to persist.
+//        entityManager.detach(walletNewNoHaveInDB);
+//        entityManager.merge(walletNewNoHaveInDB); // KO cO tac dụng
+//       // entityManager.persist(walletNewNoHaveInDB); /// detached entity passed to persist.
+//        //walletRepository.save(walletNewNoHaveInDB);   /// SAVE OK, PERSTIS LOI no have detached entity passed to persist.
+//        String a = "e43";
+
+//        Wallet wallet = walletRepository.findById(1L).get();
+//        entityManager.detach(wallet);
+//        wallet.setAmount(new BigDecimal(543));
+//        //entityManager.persist(wallet);  persit lỗi detached entity passed to persist.
+//        walletRepository.save(wallet); save OK
+
         Wallet walletNewNoHaveInDB = new Wallet();
-        entityManager.persist(walletNewNoHaveInDB);   // neu bỏ dòng này ko lỗi detached entity passed to persist.
+        walletRepository.save(walletNewNoHaveInDB);
         entityManager.detach(walletNewNoHaveInDB);
-        entityManager.merge(walletNewNoHaveInDB); // KO cO tac dụng
-       // entityManager.persist(walletNewNoHaveInDB); /// detached entity passed to persist.
-        //walletRepository.save(walletNewNoHaveInDB);   /// SAVE OK, PERSTIS LOI no have detached entity passed to persist.
-        String a = "e43";
+        walletRepository.save(walletNewNoHaveInDB);   // ERROR rollback
+
+
     }
 
     @Transactional(readOnly = true)

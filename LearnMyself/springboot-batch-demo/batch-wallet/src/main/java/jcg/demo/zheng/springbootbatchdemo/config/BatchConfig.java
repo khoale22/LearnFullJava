@@ -15,6 +15,9 @@ import jcg.demo.zheng.springbootbatchdemo.step.SimpleProcessor;
 import jcg.demo.zheng.springbootbatchdemo.step.SimpleReader;
 import jcg.demo.zheng.springbootbatchdemo.step.SimpleWriter;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
 @Configuration
 public class BatchConfig {
 
@@ -32,6 +35,10 @@ public class BatchConfig {
 
 	@Autowired
 	public SimpleAdapterReader simpleAdapter;
+
+	@Autowired
+	@PersistenceContext
+	private transient EntityManager entityManager;
 
 	private int STEP_CHUNK_SIZE = 2;
 
@@ -54,13 +61,13 @@ public class BatchConfig {
 	@Bean
 	public Step oneStep() {
 		return stepBuilderFactory.get(STEP_ONE_NAME).<Wallet, Wallet> chunk(STEP_CHUNK_SIZE).reader(new SimpleReader(walletRepository))
-				.processor(new SimpleProcessor()).writer(new SimpleWriter()).build();
+				.processor(new SimpleProcessor(entityManager)).writer(new SimpleWriter(walletRepository)).build();
 	}
 
 	@Bean
 	public Step adapterStep() {
 		return stepBuilderFactory.get(STEP_A_NAME).<Wallet, Wallet>chunk(STEP_CHUNK_SIZE).reader(simpleAdaperReader())
-				.processor(new SimpleProcessor()).writer(new SimpleWriter()).build();
+				.processor(new SimpleProcessor(entityManager)).writer(new SimpleWriter(walletRepository)).build();
 	}
 
 	@Bean
