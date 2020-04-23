@@ -66,8 +66,25 @@ public class TImeZoneTest {
         System.out.println("Instant.now()) : " + Instant.now());
 
         System.out.println("phan 2") ;
+        System.out.println("Instant.ofEpochMilli : " + Instant.ofEpochMilli(-8_520_314_400_000L));
 
-        System.out.println("Instant.now()) : " + Instant.ofEpochMilli(-8_520_249_601_000L));
+        System.out.println("Instant.ofEpochMilli : " + Instant.ofEpochMilli(-8_520_249_601_000L));
+        System.out.println("Instant.ofEpochMilli : " + Instant.ofEpochMilli(-8_520_249_601_000L).plus(6, ChronoUnit.HOURS));
+
+        System.out.println("phan 3") ;
+        System.out.println("Instant.ofEpochMilli : " + Timestamp.from(Instant.ofEpochMilli(-8_520_314_400_000L)));
+
+        System.out.println("Instant.ofEpochMilli : " + Timestamp.from(Instant.ofEpochMilli(-8_520_249_601_000L)));
+        System.out.println("Instant.ofEpochMilli : " + Timestamp.from(Instant.ofEpochMilli(-8_520_249_601_000L).plus(6, ChronoUnit.HOURS)));
+
+        System.out.println("phan 4") ;
+
+        System.out.println(Instant.parse("9999-12-31T06:00:00.00Z").toEpochMilli());
+        System.out.println(Instant.parse("1700-01-01T06:00:00Z").toEpochMilli());
+
+        System.out.println(Instant.ofEpochMilli(253402236000000L));
+        System.out.println(Timestamp.from(Instant.ofEpochMilli(253402236000000L)));
+
 //        private static final Instant COST_EFFECTIVE_TIME = Instant.ofEpochMilli(-8_520_314_400_000L);
 //        // This is equivalent to 01-01-1700 23:59:59 central time
 //        private static final Instant COST_EXPIRATION_TIME = Instant.ofEpochMilli(-8_520_249_601_000L).plus(6, ChronoUnit.HOURS);
