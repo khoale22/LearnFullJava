@@ -233,15 +233,20 @@ public class PersonService {
         return 9;
     }
 
+    // entityManager.flush();  chỉ cần thiết khi ở chế độ commit , auto thì ko cần
+    /// vì auto tự động flush before any query select
+     // AUTO : Flushing to occur at query execution.
+    /// COMMIT : Flushing to occur at transaction commit or call entity.flush
     @Transactional
     public void saveNewWalletFlush2(String name) {
 
         entityManager.setFlushMode(FlushModeType.COMMIT);
         List<Person> employeeList = getNewEmployees();
         for (Person employee : employeeList) {
-            entityManager.persist(employee);
+           // entityManager.persist(employee);
+            personRepository.save(employee);
         }
-        entityManager.flush();
+       // entityManager.flush();  chỉ cần thiết khi ở chế độ commit , auto thì ko cần
         showPersistedITEmployees(entityManager);
         int a = 5;
     }
@@ -458,6 +463,16 @@ public class PersonService {
         Wallet wallet = walletRepository.findById(5L).get();
         wallet.setAmount(new BigDecimal(77));
         walletRepository.save(wallet);
+    }
+
+    @Transactional()
+    public void testSaveAndFlush(){
+       // entityManager.setFlushMode(FlushModeType.COMMIT);
+        Wallet wallet = new Wallet();
+        wallet.setAmount(new BigDecimal(77));
+       // walletRepository.saveAndFlush(wallet);
+        entityManager.persist(wallet);
+        String a = "fds";
     }
 
 
