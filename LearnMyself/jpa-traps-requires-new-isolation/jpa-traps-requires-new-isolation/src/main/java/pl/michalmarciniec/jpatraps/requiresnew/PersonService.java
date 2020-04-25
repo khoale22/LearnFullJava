@@ -276,15 +276,15 @@ public class PersonService {
         int a = 5;
     }
 
-    @Transactional
+   // @Transactional
     public void testSaveHangloat1(String name) {
         Wallet walletNewNoHaveInDB = new Wallet();
 
-//        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
-//        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
+        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
+        walletRepository.save(walletNewNoHaveInDB);   // ko co/co Transactional ko loi
 
-        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
-        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+     //   entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
+     //   entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
 
 //        entityManager.persist(walletNewNoHaveInDB);   // co Transactional ko loi
 //        entityManager.flush();
@@ -466,17 +466,81 @@ public class PersonService {
 
     @Transactional()
     public void testSaveAndFlush(){
-       // entityManager.setFlushMode(FlushModeType.COMMIT);
+      //  entityManager.setFlushMode(FlushModeType.COMMIT);
         Wallet wallet = new Wallet();
         wallet.setAmount(new BigDecimal(77));
-       // walletRepository.saveAndFlush(wallet);
+       // walletRepository.save(wallet);
         entityManager.persist(wallet);
-        String a = "fds";
+        entityManager.flush();  //call query lap tức
+        System.out.println("------Auto flush at commit transaction");
+        System.out.println("------Auto flush at commit transaction");
+        System.out.println("------Auto flush at commit transaction");
     }
 
+    /// khi setFlushMode = Auto , nếu gọi  walletRepository.findAll(); thì nó sẽ tìm tất cả wallet nên nó sẽ tìm luôn thằng wallet
+    // mới dc persist nên query dc tạo trước walletRepository.findAll();  , nếu findById Nào đó sẽ ko bị có auto flush
+
+    // truong hop nếu gọi finbyID(1L)  sau đó setAmount , rồi gọi lại finbyID(1L) sẽ KHÔNG có auto flush ? WHY
+    @Transactional()
+    public void autoFlush(){
+        Wallet wallet = new Wallet();
+        wallet.setAmount(new BigDecimal(77));
+        entityManager.persist(wallet);
+        List<Wallet> walletList = walletRepository.findAll();
+        System.out.println("-----WALLET ID" + wallet.getId());
+        System.out.println("------Auto flush at commit transaction");
+        System.out.println("------Auto flush at commit transaction");
+        System.out.println("------Auto flush at commit transaction");
+
+    }
+
+    @Transactional()
+    public void autoFlush2(){
+        Wallet wallet = new Wallet();
+        wallet.setAmount(new BigDecimal(77));
+        entityManager.persist(wallet);
+        List<Wallet> walletList = walletRepository.findAll();
+        System.out.println("-----WALLET ID" + wallet.getId());
+        System.out.println("------Auto flush at commit transaction");
+        System.out.println("------Auto flush at commit transaction");
+        System.out.println("------Auto flush at commit transaction");
+
+    }
+    /// flushMode = AUTO
+    @Transactional()
+    public void autoFlush3(){
+//        Wallet wallet = (Wallet) entityManager.createQuery( "select p from Wallet p where p.id = 1L" ).getSingleResult();
+//        wallet.setAmount(new BigDecimal(59));
+        Wallet wallet = new Wallet();
+        entityManager.persist(wallet);
+        System.out.println("------Auto flush at commit transaction");
+//        Wallet wallet2= walletRepository.findById(1L).get();/// NO AUTO FLUSH
+//        System.out.println("------Get Value" + wallet2.getAmount());
+      //  List<Wallet> walletList = walletRepository.findAll();  /// AUTO FLUSH
 
 
+       // Wallet wallet2 = (Wallet) entityManager.createQuery( "select p from Wallet p where p.id = 2L" ).getSingleResult(); //AUTO FLUSH
+        Person person = (Person) entityManager.createQuery( "select p from Person p where p.id = 37L" ).getSingleResult();  // NO AUTO FLUSH
+
+        System.out.println("------Auto flush at commit transaction" + person);
+
+    }
+
+    /// flushMode = AUTO
+    @Transactional()
+    public void autoFlush4(){
+        Wallet wallet = (Wallet) entityManager.createQuery( "select p from Wallet p where p.id = 1L" ).getSingleResult();
+       // entityManager.detach(wallet);
+        wallet.setAmount(new BigDecimal(65));
 
 
+        System.out.println("------Auto flush at commit transaction");
+         Wallet wallet2 = (Wallet) entityManager.createQuery( "select p from Wallet p where p.id = 1L" ).getSingleResult(); //AUTO FLUSH
+       // Person person = (Person) entityManager.createQuery( "select p from Person p where p.id = 37L" ).getSingleResult();  // NO AUTO FLUSH
+         //entityManager.persist(wallet); //detached entity passed to persist
+       // walletRepository.save(wallet);
 
+        System.out.println("------Auto flush at commit transaction" + wallet2);
+
+    }
 }
