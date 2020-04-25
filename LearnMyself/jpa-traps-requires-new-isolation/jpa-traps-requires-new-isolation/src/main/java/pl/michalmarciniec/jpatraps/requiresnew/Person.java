@@ -8,7 +8,7 @@ import javax.persistence.*;
 public class Person {
 
     @Id
-    @GeneratedValue
+   // @GeneratedValue
     @Column(name = "id")
     private Long id;
 
@@ -28,6 +28,12 @@ public class Person {
     private Wallet wallet;
 
     protected Person() {
+    }
+
+    public Person(String name, Long wallet_id, Wallet wallet) {
+        this.name = name;
+        this.wallet_id = wallet_id;
+        this.wallet = wallet;
     }
 
     public Long getWallet_id() {

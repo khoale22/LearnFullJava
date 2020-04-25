@@ -13,10 +13,7 @@ import javax.persistence.FlushModeType;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 @Service
 @PropertySource("classpath:student.properties")
@@ -542,5 +539,22 @@ public class PersonService {
 
         System.out.println("------Auto flush at commit transaction" + wallet2);
 
+    }///  Optional<Person> personOptional = personRepository.findAll().stream().filter(p -> p.getName().equals("khoa")).findFirst(); g
+    @Transactional()
+    public void autoFlush5(){
+
+          Wallet wallet = walletRepository.findById(1L).get();
+          System.out.println("------Auto flush at commit transaction");
+          Person person = new Person("khoa2",wallet );
+          person.setId(204L);
+          System.out.println("------Auto flush at commit transaction");
+          entityManager.detach(person); // ko có nghĩa vì đối tương persion là trasient
+          wallet.getPersonList().add(person);
+
+          System.out.println("------Auto flush at commit transaction");
+          List<Person> personOptional = personRepository.findAll();
+         // Person personOptional = personRepository.findAll().stream().filter( p -> p.getName().equals("khoa")).findFirst().orElse(null); // lỗi
+         // Optional<Person> personOptional = personRepository.findAll().stream().filter(p -> p.getName().equals("khoa")).findFirst(); // lỗi
+          System.out.println("------Auto flush at commit transaction");
     }
 }

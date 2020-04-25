@@ -71,10 +71,11 @@ public class JpaTrapsApplication implements CommandLineRunner {
 
 		//personService.autoFlush3();
 		//personService.autoFlush4();
+		personService.autoFlush5();
 
 
 
 
-		testService.deleteTheSameEntity2();
+		//testService.deleteTheSameEntity2();
 	}
 }
