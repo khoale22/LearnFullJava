@@ -71,4 +71,13 @@ public class Person {
         this.wallet = wallet;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", wallet_id=" + wallet_id +
+                ", wallet=" + wallet +
+                '}';
+    }
 }

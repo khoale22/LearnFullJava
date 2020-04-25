@@ -233,6 +233,10 @@ public class PersonService {
         return 9;
     }
 
+    // entityManager.flush();  chỉ cần thiết khi ở chế độ commit , auto thì ko cần
+    /// vì auto tự động flush before any query select
+     // AUTO : Flushing to occur at query execution.
+    /// COMMIT : Flushing to occur at transaction commit or call entity.flush
     @Transactional
     public void saveNewWalletFlush2(String name) {
 
@@ -460,21 +464,16 @@ public class PersonService {
         walletRepository.save(wallet);
     }
 
-    @Transactional
-    public void call2Times(){
-//        Wallet wallet = walletRepository.findById(1L).get();
-//        wallet.setAmount(new BigDecimal(323L));
-//        //Wallet wallet2 = walletRepository.findById(70L).get();
-//        //entityManager.flush();
-//        Wallet wallet2 = walletRepository.findById(1L).get();
-//        String a = "55";
-        entityManager.setFlushMode((FlushModeType.COMMIT));
-        Wallet wallet123 = new Wallet();
-        wallet123.setAmount(new BigDecimal(43243));
-        entityManager.persist(wallet123);
-        entityManager.flush();
-        String a = "43";
+    @Transactional()
+    public void testSaveAndFlush(){
+       // entityManager.setFlushMode(FlushModeType.COMMIT);
+        Wallet wallet = new Wallet();
+        wallet.setAmount(new BigDecimal(77));
+       // walletRepository.saveAndFlush(wallet);
+        entityManager.persist(wallet);
+        String a = "fds";
     }
+
 
 
 
