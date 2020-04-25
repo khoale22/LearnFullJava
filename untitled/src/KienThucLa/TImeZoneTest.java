@@ -83,6 +83,7 @@ public class TImeZoneTest {
         System.out.println(Instant.parse("1700-01-01T06:00:00Z").toEpochMilli());
 
         System.out.println(Instant.ofEpochMilli(253402236000000L));
+        System.out.println(Instant.ofEpochMilli(253_402_236_000_000L));
         System.out.println(Timestamp.from(Instant.ofEpochMilli(253402236000000L)));
 
 //        private static final Instant COST_EFFECTIVE_TIME = Instant.ofEpochMilli(-8_520_314_400_000L);

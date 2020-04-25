@@ -57,9 +57,10 @@ public class JpaTrapsApplication implements CommandLineRunner {
 		//personService.testsaveMergeUpdate();
 		//personService.detachBeforeUpdate();
 		//personService.detachBeforeUpdate2();
-		personService.testDetach();
+		//personService.testDetach();
 
 		//personService.readOnlyTEst();
+		personService.call2Times();
 
 	}
 }
