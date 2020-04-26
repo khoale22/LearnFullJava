@@ -65,4 +65,43 @@ public class TestService {
         System.out.println("------SAVE ENTITY-----");
     }
 
+   // @Transactional(propagation = Propagation.NOT_SUPPORTED)
+    public void saveHangLoat6() {
+
+        Wallet wallet = new Wallet();
+
+        List<Person> personList = new LinkedList<>();
+        Person person = new Person();
+        person.setName("sfdsf");
+        person.setWallet(wallet);
+        personList.add(person)
+;
+        wallet.setPersonList(personList);
+
+        List<Car> carList = new LinkedList<>();
+        Car car = new Car();
+        carList.add(car);
+
+        person.setCarList(carList);
+
+        walletRepository.save(wallet);
+    }
+
+    @Transactional
+    public void deleteHangLoat() {
+        Wallet wallet = walletRepository.findById(1L).get();
+
+       // Person person =  new Person("Sara Dorsey1", wallet);
+       // person.setId(1L);
+
+        wallet.getPersonList().get(0).setName("fdsf434");
+        System.out.println("------Auto flush at commit transaction ");
+
+        walletRepository.findAll();
+        personRepository.findAll();
+        System.out.println("------Auto flush at commit transaction ");
+        walletRepository.delete(wallet);
+        walletRepository.flush();
+        System.out.println("------Auto flush at commit transaction ");
+    }
 }

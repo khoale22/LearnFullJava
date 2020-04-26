@@ -3,12 +3,13 @@ package pl.michalmarciniec.jpatraps.requiresnew;
 import org.hibernate.annotations.JoinColumnOrFormula;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Person {
 
     @Id
-   // @GeneratedValue
+    //@GeneratedValue
     @Column(name = "id")
     private Long id;
 
@@ -24,8 +25,13 @@ public class Person {
     // nên save bị lỗi
     //https://stackoverflow.com/questions/13370221/persistentobjectexception-detached-entity-passed-to-persist-thrown-by-jpa-and-h
     @ManyToOne  (fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    //@ManyToOne  (fetch = FetchType.LAZY)
     @JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = true, updatable = true )
     private Wallet wallet;
+
+    @OneToMany(mappedBy = "person", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    private
+    List<Car> carList;
 
     protected Person() {
     }
@@ -85,5 +91,13 @@ public class Person {
                 ", wallet_id=" + wallet_id +
                 ", wallet=" + wallet +
                 '}';
+    }
+
+    public List<Car> getCarList() {
+        return carList;
+    }
+
+    public void setCarList(List<Car> carList) {
+        this.carList = carList;
     }
 }

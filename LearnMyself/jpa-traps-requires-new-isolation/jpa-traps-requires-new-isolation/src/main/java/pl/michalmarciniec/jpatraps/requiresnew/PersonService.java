@@ -544,17 +544,25 @@ public class PersonService {
     public void autoFlush5(){
 
           Wallet wallet = walletRepository.findById(1L).get();
-          System.out.println("------Auto flush at commit transaction");
-          Person person = new Person("khoa2",wallet );
-          person.setId(204L);
-          System.out.println("------Auto flush at commit transaction");
-          entityManager.detach(person); // ko có nghĩa vì đối tương persion là trasient
+          System.out.println("------Auto flush at commit transaction 1");
+          Person person = new Person("khoa33",wallet );
+         // person.setId(204L);
+          System.out.println("------Auto flush at commit transaction 2");
+        //  entityManager.detach(person); // ko có nghĩa vì đối tương persion là trasient
+       //  entityManager.detach(wallet); // lỗi vì detach wallet thì làm sao getPersonList()
           wallet.getPersonList().add(person);
 
-          System.out.println("------Auto flush at commit transaction");
-          List<Person> personOptional = personRepository.findAll();
+          System.out.println("------Auto flush at commit transaction 3");
+         // List<Person> personOptional = personRepository.findAll();
          // Person personOptional = personRepository.findAll().stream().filter( p -> p.getName().equals("khoa")).findFirst().orElse(null); // lỗi
-         // Optional<Person> personOptional = personRepository.findAll().stream().filter(p -> p.getName().equals("khoa")).findFirst(); // lỗi
-          System.out.println("------Auto flush at commit transaction");
+          Optional<Person> personOptional22 = personRepository.findAll().stream().filter(p -> p.getName().equals("khoa33")).findFirst(); // lỗi
+          if(personOptional22.isPresent()){
+              System.out.println("------Auto flush at commit transaction 4");
+          }
+         Optional<Person> personOptional223 = personRepository.findAll().stream().filter(p -> p.getName().equals("khoa33")).findFirst(); // lỗi
+        if(personOptional22.isPresent()){
+            System.out.println("------Auto flush at commit transaction 4.22");
+        }
+          System.out.println("------Auto flush at commit transaction 5");
     }
 }
