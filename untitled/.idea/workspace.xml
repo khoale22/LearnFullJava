@@ -122,10 +122,10 @@
     <session id="1139914358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
@@ -134,7 +134,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -169,17 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KienThucLa/TImeZoneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="251">
               <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/time/Instant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1840">
-              <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -218,6 +209,12 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
+        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Audit-Cleanup" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Vestcom-Batch" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/ePlum-batch-monitor" value="PREVIEW" />
@@ -240,12 +237,6 @@
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-dao" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-model" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-util" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -305,8 +296,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,6 +329,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,6 +483,8 @@
       <workItem from="1587637571951" duration="275000" />
       <workItem from="1587646366126" duration="4496000" />
       <workItem from="1587739691799" duration="343000" />
+      <workItem from="1587960331295" duration="37000" />
+      <workItem from="1587963538840" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -505,7 +497,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74122000" />
+    <option name="totallyTimeSpent" value="74170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,10 +509,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.09682299" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.098614074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,14 +528,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24205749" side_tool="true" visible="true" weight="0.23567921" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24205749" side_tool="true" visible="true" weight="0.23510292" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4978678" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.004538578" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.0042643924" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -1128,17 +1119,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/time/Instant.java" />
     <entry file="file://$PROJECT_DIR$/src/KienThucLa/TImeZoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="251">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/time/Instant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
         </state>
       </provider>
     </entry>
