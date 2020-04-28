@@ -38,7 +38,7 @@ public class UserController {
     @ApiOperation(value = "Xem danh sách User", response = List.class)
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Thành công"),
-            @ApiResponse(code = 401, message = "Chưa xác thực"),
+            @ApiResponse(code = 401, message = "BỊ điên"),
             @ApiResponse(code = 403, message = "Truy cập bị cấm"),
             @ApiResponse(code = 404, message = "Không tìm thấy")
     })
