@@ -16,8 +16,4 @@ public class A {
         System.out.print(i);
         
     }
-    
-    
-
-
 }

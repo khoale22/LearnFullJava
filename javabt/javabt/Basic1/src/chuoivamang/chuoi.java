@@ -16,17 +16,15 @@ public class chuoi {
     String b = "adf";
     
     String noi = a.concat(b);
-     System.out.println("noi chuoi concac"+ noi);
+     System.out.println("noi chuoi concac  "+ noi);
     
      String d ="Happy new";
      
      char e = d.charAt(4);
       
-     char e1 = d.charAt(5); // tra ve ky tu trong
       System.out.println(e);
-       System.out.println(e1);
-       System.out.println(e);
-       
+      
+      
        int result;
     String string1 = "Happy new year!";
     String string2 = "Happy new ytai!";

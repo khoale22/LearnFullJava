@@ -13,7 +13,7 @@ public abstract class NewAstract {
     int a ;
     //asbstract class co the method binh thuong 
     // interface chi co abstract method
-    public void tenbien(){
+    private void tenbien(){
         System.out.println("test");
     }
     protected abstract void tenbien2();

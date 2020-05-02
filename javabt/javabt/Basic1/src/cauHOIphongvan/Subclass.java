@@ -20,7 +20,7 @@ public class Subclass extends Superclass {
    
  
     public static void main(String[] args) {
-        Subclass objSubclass = new Subclass();
+        Superclass objSubclass = new Subclass();
         objSubclass.hienThi();
         objSubclass.test();
         

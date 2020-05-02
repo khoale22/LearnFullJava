@@ -26,12 +26,12 @@ class Test implements Serializable{
     {
         Test input = new Test();
         // serialization
-        FileOutputStream fos = new FileOutputStream("E:\\student.txt");
+        FileOutputStream fos = new FileOutputStream("C:\\New folder\\student2.txt");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
         oos.writeObject(input);
 
         // de-serialization
-        FileInputStream fis = new FileInputStream("E:\\student.txt");
+        FileInputStream fis = new FileInputStream("C:\\New folder\\student2.txt");
         ObjectInputStream ois = new ObjectInputStream(fis);
         Test output = (Test)ois.readObject();
         System.out.println("i = " + output.i);

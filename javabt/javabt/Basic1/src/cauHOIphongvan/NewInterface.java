@@ -23,7 +23,7 @@ public interface NewInterface {
     default void abc(){
         //TEST_TE = "fds";
     }
-     static void abcdfd(){
+    static void abcdfd(){
         
     };
     

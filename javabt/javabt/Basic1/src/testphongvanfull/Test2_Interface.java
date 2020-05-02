@@ -26,13 +26,11 @@ class A implements Test2_Interface, Test3_Interface{
         testabc();
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-//    public static void main(String[] args) {
-//       
-//    }
-//    @Override
-//    public void testabc() {
-//        Test2_Interface.super.testabc();
-//    }
+
+    @Override
+   public void testabc() {
+        Test2_Interface.super.testabc();
+    }
 }
  abstract  class AB{
     private int a;
