@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LEARN-LATER.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../LEARN-LATER.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,10 +122,10 @@
     <session id="1139914358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
@@ -134,7 +134,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -169,8 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KienThucLa/TImeZoneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="297">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -201,6 +201,7 @@
       <find>Instant.</find>
       <find>getOffsetBetweenUTCAndDefaultTimeZone</find>
       <find>ofEpochMilli</find>
+      <find>253402236000000L</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,6 +297,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,13 +331,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587653683697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588672656797" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -485,6 +486,7 @@
       <workItem from="1587739691799" duration="343000" />
       <workItem from="1587960331295" duration="37000" />
       <workItem from="1587963538840" duration="11000" />
+      <workItem from="1588672550818" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -497,7 +499,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74170000" />
+    <option name="totallyTimeSpent" value="74363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,8 +512,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.098614074" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.09968017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,7 +523,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50247526" side_tool="true" weight="0.1633888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1603467" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7579425" weight="0.23567921" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7574627" weight="0.4452871" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8379531" weight="0.47128928" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +531,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24205749" side_tool="true" visible="true" weight="0.23510292" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24253732" side_tool="true" visible="true" weight="0.4452871" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4978678" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1122,8 +1125,8 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/time/Instant.java" />
     <entry file="file://$PROJECT_DIR$/src/KienThucLa/TImeZoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="297">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
