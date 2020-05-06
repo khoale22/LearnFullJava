@@ -1,0 +1,50 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.0.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'java' // the plugin to add support for java or can declare  apply plungin : 'java'
+}
+
+group = 'GroupTest'  // ben pacagke
+version = '0.0.1'  // file jar
+sourceCompatibility = '1.8' // là java 1.8
+
+repositories {
+    // để tìm ở đâu to find dependencies of your project   // kho chứa maven
+    mavenCentral()
+}
+
+dependencies {
+	// inject dependencies for your project that you need
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+//    // hibernate
+//    compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+
+//    // walletRepository.findById(2L)
+//    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.2.7.RELEASE'
+//
+//    compile group: 'org.springframework', name: 'spring-tx', version: '3.0.5.RELEASE'
+//
+//    compile group: 'org.springframework.boot', name: 'spring-boot-configuration-processor', version: '2.1.0.RELEASE'
+//
+//    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+//    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.13'
+//
+//    implementation 'org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE'
+//    implementation 'javax.xml.bind:jaxb-api:2.3.0'
+
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.1.0.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE'
+    implementation 'com.h2database:h2:1.4.197'
+    implementation 'javax.xml.bind:jaxb-api:2.3.0'
+    implementation 'mysql:mysql-connector-java:8.0.13'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc:2.1.0.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-test:2.1.0.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-configuration-processor:2.1.0.RELEASE'
+
+    /// implementation và comple khác nhau gì
+//    https://stackoverflow.com/questions/44493378/whats-the-difference-between-implementation-and-compile-in-gradle
+    //https://stackoverflow.com/questions/44402024/why-android-change-compile-to-implementation-configuration-in-gradle-depende
+}
