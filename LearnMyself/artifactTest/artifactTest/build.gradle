@@ -1,8 +1,14 @@
 plugins {
 	id 'org.springframework.boot' version '2.1.0.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
-	id 'java' // the plugin to add support for java or can declare  apply plungin : 'java'
+//	id 'java' // the plugin to add support for java or can declare  apply plungin : 'java'
 }
+apply plugin: 'java'
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+
+defaultTasks 'clean', 'build'  // neu chay  gradle -q nếu không có task nào chỉ định sẽ chạy cái này
 
 group = 'GroupTest'  // ben pacagke
 version = '0.0.1'  // file jar
@@ -11,6 +17,12 @@ sourceCompatibility = '1.8' // là java 1.8
 repositories {
     // để tìm ở đâu to find dependencies of your project   // kho chứa maven
     mavenCentral()
+
+//    mavenLocal() đinh nghĩa maven local save ở USER_HOME/.m2/repository.
+//    maven {
+//        name "HEB PM Snapshots"
+//        url "http://nexus-lib.heb.com/nexus/content/repositories/PM-Snapshots"
+//    }
 }
 
 dependencies {
@@ -47,4 +59,51 @@ dependencies {
     /// implementation và comple khác nhau gì
 //    https://stackoverflow.com/questions/44493378/whats-the-difference-between-implementation-and-compile-in-gradle
     //https://stackoverflow.com/questions/44402024/why-android-change-compile-to-implementation-configuration-in-gradle-depende
+}
+
+test {  // ignore test  @Test , @SpringBootTest ....
+    ignoreFailures = true
+    // This is needed as groovy/Spring are using reflection into the JVM which is no longer allowed by default.
+    // See https://stackoverflow.com/questions/41265266/how-to-solve-inaccessibleobjectexception-unable-to-make-member-accessible-m/41265267
+    // it's not the same error message, but is similar.
+//    jvmArgs "--add-opens=java.base/jdk.internal.loader=ALL-UNNAMED"
+}
+
+checkstyle {
+    ignoreFailures = true
+    toolVersion '7.8.1'
+    configFile file("config/checkstyle/checkstyle.xml")
+    configDir = file("$rootProject.projectDir/config/checkstyle")
+}
+checkstyleMain {
+    ignoreFailures = true// chỉ cần thiết khi sủ dụng cái này khi sử dụng gradle build
+    source ='src/main/java'
+}
+checkstyleTest {
+    source ='src/test/java'
+}
+
+
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
+findbugs{
+    ignoreFailures=false
+    findbugsTest.enabled=false
+}
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
+pmd {
+	ignoreFailures = false
+	pmdTest.enabled = false
+	toolVersion '6.12.0'
+	ruleSetFiles = files("config/pmd/ruleset.xml")
+	ruleSets = []
 }
