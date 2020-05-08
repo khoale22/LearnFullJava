@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../LEARN-LATER.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../LEARN-LATER.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KienThucLa/TES555555.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestUniut/AssertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestUniut/AssumeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestUniut/Mockito/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/ArtifactTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/ArtifactTestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/java/GroupTest/artifactTest/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/artifactTest/artifactTest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/newwebshop" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/newwebshop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,40 +137,43 @@
     <session id="1139914358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="59" />
+          <entry key="class" value="2" />
+          <entry key="java" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="59" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1087" />
+          <entry key="java" value="1398" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1087" />
+          <entry key="JAVA" value="1398" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -166,11 +184,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/KienThucLa/TImeZoneTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -202,6 +256,9 @@
       <find>getOffsetBetweenUTCAndDefaultTimeZone</find>
       <find>ofEpochMilli</find>
       <find>253402236000000L</find>
+      <find>toInstan</find>
+      <find>assertEquals</find>
+      <find>userService</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -273,6 +330,13 @@
         <option value="$PROJECT_DIR$/src/KienThucLa/AnotationTest.java" />
         <option value="$PROJECT_DIR$/src/KienThucLa/TimeZone2.java" />
         <option value="$PROJECT_DIR$/src/KienThucLa/TImeZoneTest.java" />
+        <option value="$PROJECT_DIR$/src/KienThucLa/TES555555.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/AssumeTest.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/AssertTest.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java" />
       </list>
     </option>
   </component>
@@ -283,10 +347,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="699" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="916" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -297,7 +360,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,14 +376,7 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KienThucLa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KienThucLa" type="462c0819:PsiDirectoryNode" />
-              <item name="TImeZoneTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="TestUniut" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
@@ -331,18 +386,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588672656797" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588927633866" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mockito-all-1.10.19.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
@@ -363,80 +422,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewClass">
-    <configuration name="AnotaionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KienThucLa.AnotaionTest" />
+  <component name="RunManager" selected="JUnit.UserServiceImplTest">
+    <configuration name="AssertTest.testAssertThatObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KienThucLa.*" />
+          <option name="PATTERN" value="TestUniut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestUniut" />
+      <option name="MAIN_CLASS_NAME" value="TestUniut.AssertTest" />
+      <option name="METHOD_NAME" value="testAssertThatObject" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListLinkket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollectionAndHashCodeEquals.ArrayListLinkket" />
+    <configuration name="AssertTest.testAssertThatWMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCollectionAndHashCodeEquals.*" />
+          <option name="PATTERN" value="TestUniut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestUniut" />
+      <option name="MAIN_CLASS_NAME" value="TestUniut.AssertTest" />
+      <option name="METHOD_NAME" value="testAssertThatWMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollectionAndHashCodeEquals.HashSetNew" />
+    <configuration name="AssumeTest.assumeTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCollectionAndHashCodeEquals.*" />
+          <option name="PATTERN" value="TestUniut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestUniut" />
+      <option name="MAIN_CLASS_NAME" value="TestUniut.AssumeTest" />
+      <option name="METHOD_NAME" value="assumeTrueTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KienThucLa.NewClass" />
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KienThucLa.*" />
+          <option name="PATTERN" value="TestUniut.Mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestUniut.Mockito" />
+      <option name="MAIN_CLASS_NAME" value="TestUniut.Mockito.UserServiceImplTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolymorphicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PolymorphicTest" />
+    <configuration name="UserServiceImplTest.createUser_WhenEmailExisted_ReturnFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestUniut.Mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestUniut.Mockito" />
+      <option name="MAIN_CLASS_NAME" value="TestUniut.Mockito.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="createUser_WhenEmailExisted_ReturnFailed" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashSetNew" />
-      <item itemvalue="Application.ArrayListLinkket" />
-      <item itemvalue="Application.PolymorphicTest" />
-      <item itemvalue="Application.AnotaionTest" />
-      <item itemvalue="Application.NewClass" />
+      <item itemvalue="JUnit.AssumeTest.assumeTrueTest" />
+      <item itemvalue="JUnit.AssertTest.testAssertThatObject" />
+      <item itemvalue="JUnit.AssertTest.testAssertThatWMessage" />
+      <item itemvalue="JUnit.UserServiceImplTest.createUser_WhenEmailExisted_ReturnFailed" />
+      <item itemvalue="JUnit.UserServiceImplTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewClass" />
-        <item itemvalue="Application.AnotaionTest" />
-        <item itemvalue="Application.PolymorphicTest" />
-        <item itemvalue="Application.ArrayListLinkket" />
-        <item itemvalue="Application.HashSetNew" />
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.createUser_WhenEmailExisted_ReturnFailed" />
+        <item itemvalue="JUnit.AssertTest.testAssertThatWMessage" />
+        <item itemvalue="JUnit.AssertTest.testAssertThatObject" />
+        <item itemvalue="JUnit.AssumeTest.assumeTrueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -487,6 +565,10 @@
       <workItem from="1587960331295" duration="37000" />
       <workItem from="1587963538840" duration="11000" />
       <workItem from="1588672550818" duration="193000" />
+      <workItem from="1588846615539" duration="1398000" />
+      <workItem from="1588857986770" duration="787000" />
+      <workItem from="1588901884141" duration="10000" />
+      <workItem from="1588919578628" duration="6516000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -498,8 +580,40 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AssumeTest_assumeTrueTest - 2020.05.08 at 13h 52m 49s.xml">
+      <configuration name="AssumeTest.assumeTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssumeTest_assumeTrueTest - 2020.05.08 at 13h 56m 23s.xml">
+      <configuration name="AssumeTest.assumeTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssumeTest_assumeTrueTest - 2020.05.08 at 13h 56m 35s.xml">
+      <configuration name="AssumeTest.assumeTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertTest_testAssertThatObject - 2020.05.08 at 14h 20m 30s.xml">
+      <configuration name="AssertTest.testAssertThatObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertTest_testAssertThatWMessage - 2020.05.08 at 14h 21m 04s.xml">
+      <configuration name="AssertTest.testAssertThatWMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_createUser_WhenEmailExisted_ReturnFailed - 2020.05.08 at 15h 07m 55s.xml">
+      <configuration name="UserServiceImplTest.createUser_WhenEmailExisted_ReturnFailed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_createUser_WhenEmailExisted_ReturnFailed - 2020.05.08 at 15h 08m 24s.xml">
+      <configuration name="UserServiceImplTest.createUser_WhenEmailExisted_ReturnFailed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2020.05.08 at 15h 23m 57s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2020.05.08 at 15h 43m 30s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest - 2020.05.08 at 15h 43m 54s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74363000" />
+    <option name="totallyTimeSpent" value="83074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,9 +626,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.09968017" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.11673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,16 +636,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.50247526" side_tool="true" weight="0.1633888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1603467" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7574627" weight="0.4452871" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8379531" weight="0.47128928" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7553305" weight="0.4452871" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.836887" weight="0.40628386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.07528642" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24253732" side_tool="true" visible="true" weight="0.4452871" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4978678" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16311301" side_tool="true" visible="true" weight="0.40628386" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4968017" weight="0.13217768" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -833,6 +946,36 @@
           <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/AssertTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java</url>
           <line>455</line>
@@ -865,9 +1008,38 @@
           </properties>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>32</line>
+          <properties class="TestUniut.Mockito.UserServiceImplTest" method="setUp">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>21</line>
+          <properties field="userDao" class="TestUniut.Mockito.UserServiceImplTest" />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>25</line>
+          <properties field="userService" class="TestUniut.Mockito.UserServiceImplTest" />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>23</line>
+          <properties field="userDao4" class="TestUniut.Mockito.UserServiceImplTest" />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="userDao.createUser(&quot;existed@gpcoder.com&quot;)" language="JAVA" />
+      </configuration>
       <configuration name="Application">
         <watch expression="fields[0].getAnnotation(Normalize.class)" language="JAVA" />
         <watch expression="fields[1].getAnnotation(Normalize.class)" language="JAVA" />
@@ -884,6 +1056,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>userDao.createUser(&quot;existed@gpcoder.com&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Object()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>utcTimeZone.getRawOffset()</expression-string>
         <language-id>JAVA</language-id>
@@ -924,36 +1106,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>fields[0].getAnnotation(Normalize.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Hashtable.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/TreeMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Comparable.java" />
-    <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/TreeMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#799#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Bank2.java" />
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Bank.java" />
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/BankType.java" />
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/BankFactory.java" />
@@ -1125,8 +1280,116 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/time/Instant.java" />
     <entry file="file://$PROJECT_DIR$/src/KienThucLa/TImeZoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="153">
+          <caret line="63" column="59" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KienThucLa/TES555555.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/ComparisonCriteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="195" column="48" lean-forward="true" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
+          <folding>
+            <element signature="e#12545#12546#0" expanded="true" />
+            <element signature="e#12592#12593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/AssumeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/AssertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../mockito-all-1.10.19.jar!/org/mockito/stubbing/OngoingStubbing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,7 +1450,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

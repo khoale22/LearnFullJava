@@ -15,7 +15,7 @@ public class Wallet {
     @Column(name = "amount")
     private BigDecimal amount;
 
-    @OneToMany(mappedBy = "wallet", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "wallet", fetch = FetchType.LAZY)
     private
     List<Person> personList;
 

@@ -48,4 +48,34 @@ public class PersonService {
         int a = 10/0;
         System.out.println(a);
     }
+
+    @Transactional
+    public void testGetuier(String name){
+        List<Wallet> walletList = new LinkedList<>();
+
+        Wallet wallet = new Wallet();
+        wallet.setId(415L);
+        walletList.add(wallet);
+
+
+        Person person = new Person();
+        person.setName("khoa");
+        person.setWallet_id(wallet.getId());
+
+        person.setWallet(wallet);
+        System.out.println("---SET WALLET");
+
+       Person person34343 = personRepository.save(person);
+        //entityManager.merge(person.getWallet());
+        System.out.println("---SAVE PESON");
+        String a = "rw";
+        String b = "fdsf";
+
+       // walletRepository.save(person.getWallet());
+        walletRepository.saveAll(walletList);
+        entityManager.flush();
+        System.out.println("---END");
+
+    }
+
 }

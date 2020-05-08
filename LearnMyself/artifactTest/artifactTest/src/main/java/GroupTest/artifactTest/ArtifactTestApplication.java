@@ -21,6 +21,6 @@ public class ArtifactTestApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) {
 
-	//	personService.testGetuier("trung2");
+		personService.testGetuier("trung2");
 	}
 }

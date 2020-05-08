@@ -7,14 +7,14 @@ import java.util.List;
 public class Person {
 
     @Id
-    //@GeneratedValue
+    @GeneratedValue
     @Column(name = "id")
     private Long id;
 
     @Column(name = "name")
     private String name;
 
-    @Column(name = "wallet_id", insertable = false, updatable = false)
+    @Column(name = "wallet_id")
     private Long wallet_id;
 
     /// referencedColumnName có thể có hoặc ko như nhau vì hibernate sẽ tự map đến khóa chính của wallet
@@ -22,14 +22,13 @@ public class Person {
     // wallet , lần đầu tiên là đối tượng mới nên mới dc persit vào persistent context lần 2 ở transacnal(1) wallet này ko phải new
     // nên save bị lỗi
     //https://stackoverflow.com/questions/13370221/persistentobjectexception-detached-entity-passed-to-persist-thrown-by-jpa-and-h
-    @ManyToOne  (fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    //@ManyToOne  (fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     //@ManyToOne  (fetch = FetchType.LAZY)
-    @JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = true, updatable = true )
-    private Wallet wallet;
+    //@JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = true, updatable = true )
 
-    @OneToMany(mappedBy = "person", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
-    private
-    List<Car> carList;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = false, updatable = false )
+    private Wallet wallet;
 
     protected Person() {
     }
@@ -91,11 +90,5 @@ public class Person {
                 '}';
     }
 
-    public List<Car> getCarList() {
-        return carList;
-    }
 
-    public void setCarList(List<Car> carList) {
-        this.carList = carList;
-    }
 }
