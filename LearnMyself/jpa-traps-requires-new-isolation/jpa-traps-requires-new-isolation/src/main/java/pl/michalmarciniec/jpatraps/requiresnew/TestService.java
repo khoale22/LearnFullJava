@@ -104,4 +104,7 @@ public class TestService {
         walletRepository.flush();
         System.out.println("------Auto flush at commit transaction ");
     }
+    public Wallet getWalletByIdTest(){
+        return walletRepository.findById(1L).get();
+    }
 }

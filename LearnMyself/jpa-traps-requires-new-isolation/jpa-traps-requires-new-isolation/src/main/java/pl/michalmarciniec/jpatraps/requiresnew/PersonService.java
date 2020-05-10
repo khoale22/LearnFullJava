@@ -61,7 +61,7 @@ public class PersonService {
            // entityManager.persist(person);
        Wallet emptyWallet = walletService.createWalletAndAttachToPerson(person);
        // personRepository.save(person);
-        return 0;
+        return person.getId();
     }
 
     @Transactional

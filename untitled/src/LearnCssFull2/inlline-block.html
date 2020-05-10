@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Xem ví dụ</title>
+    <style>
+        span{
+            display:inline-block;
+            border:1px solid black;
+            width:300px;
+            height:200px;
+            padding: 30px;
+        }
+        #test span{
+            display:inline;
+            border:1px solid black;
+            width:300px;
+            height:200px;
+            padding: 30px;
+        }
+
+        .nav {
+            background-color: yellow;
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav li {
+            border:1px solid black;
+
+            /*inline khong nhan magin / padding heghit width*/
+            display: inline;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+inline-block cho phep set cheiu cao chieu rong
+<div>Tài liệu học <span>Lập Trình Web</span> miễn phí</div>   <br>
+<div id="test">Tài liệu học <span>Lập Trình Web</span> miễn phí</div>
+<br>
+<br><br>
+<ul class="nav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#clients">Our Clients</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+</ul>
+
+</body>
+</html>

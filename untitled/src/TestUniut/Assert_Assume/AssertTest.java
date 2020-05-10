@@ -1,10 +1,9 @@
-package TestUniut;
+package TestUniut.Assert_Assume;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.Is.isA;
 
 
 public class AssertTest {
@@ -67,7 +66,7 @@ public class AssertTest {
     }
     @Test
     public void testAssertThatObject() {
-        Assert.assertThat("123",isA(String.class));
+        Assert.assertThat("123",is(String.class));
     }
 
     @Test

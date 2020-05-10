@@ -9,7 +9,7 @@ import java.util.List;
 public class Person {
 
     @Id
-    //@GeneratedValue
+    @GeneratedValue
     @Column(name = "id")
     private Long id;
 
@@ -24,8 +24,8 @@ public class Person {
     // wallet , lần đầu tiên là đối tượng mới nên mới dc persit vào persistent context lần 2 ở transacnal(1) wallet này ko phải new
     // nên save bị lỗi
     //https://stackoverflow.com/questions/13370221/persistentobjectexception-detached-entity-passed-to-persist-thrown-by-jpa-and-h
-    @ManyToOne  (fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    //@ManyToOne  (fetch = FetchType.LAZY)
+    //@ManyToOne  (fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @ManyToOne  (fetch = FetchType.LAZY)
     @JoinColumn(name = "wallet_id",referencedColumnName = "id", insertable = true, updatable = true )
     private Wallet wallet;
 

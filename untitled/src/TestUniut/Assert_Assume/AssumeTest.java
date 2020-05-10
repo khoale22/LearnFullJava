@@ -1,4 +1,4 @@
-package TestUniut;
+package TestUniut.Assert_Assume;
 
 import org.junit.Assume;
 import org.junit.Test;
