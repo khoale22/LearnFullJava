@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LearnCssFull2/WEBCOBAN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JQuery/hide.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,9 +87,9 @@
     <session id="790300802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -100,12 +99,12 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="36" />
+          <entry key="html" value="40" />
           <entry key="iml" value="1" />
           <entry key="java" value="45" />
           <entry key="rnc" value="3" />
@@ -113,7 +112,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="36" />
+          <entry key="HTML" value="40" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="45" />
           <entry key="RNG Compact" value="3" />
@@ -121,13 +120,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1435" />
+          <entry key="html" value="2247" />
           <entry key="java" value="1022" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1435" />
+          <entry key="HTML" value="2247" />
           <entry key="JAVA" value="1022" />
         </counts>
       </usages-collector>
@@ -182,11 +181,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/bochon.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JQuery/hide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,7 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/WapperTest.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/BankType.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Test.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/BankFactory.java" />
@@ -316,6 +326,7 @@
         <option value="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html" />
+        <option value="$PROJECT_DIR$/src/JQuery/hide.html" />
       </list>
     </option>
   </component>
@@ -339,9 +350,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,6 +366,12 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LearnCssFull2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,6 +382,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +395,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/maich/OneDrive/Desktop/LearnPhongVan/LEARNFULL44/LearnFullJava/untitled/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589211205850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589292045022" />
     <property name="last_opened_file_path" value="D:/mockito-all-1.10.19.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -560,6 +577,8 @@
       <workItem from="1589111661921" duration="7215000" />
       <workItem from="1589124224194" duration="577000" />
       <workItem from="1589202984326" duration="8027000" />
+      <workItem from="1589286030263" duration="6035000" />
+      <workItem from="1589293482247" duration="891000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -604,7 +623,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111712000" />
+    <option name="totallyTimeSpent" value="118638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,7 +638,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.1709531" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.052193645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1199,13 +1218,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPattern/BuiderDesign/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1415,20 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#h1#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/WEBCOBAN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1589209498911" expanded="true" signature="2853:3013" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1488,13 +1486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/test454.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/posittion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1527,10 +1518,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/test454.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/WEBCOBAN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/bochon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JQuery/hide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
