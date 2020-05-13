@@ -13,6 +13,7 @@ import javax.persistence.FlushModeType;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,7 +21,7 @@ import java.util.List;
 @Service
 @PropertySource("classpath:student.properties")
 @ConfigurationProperties("student")
-@Transactional
+//@Transactional
 public class TestService {
 
     private final PersonRepository personRepository;
@@ -66,6 +67,7 @@ public class TestService {
     }
 
    // @Transactional(propagation = Propagation.NOT_SUPPORTED)
+   @Transactional
     public void saveHangLoat6() {
 
         Wallet wallet = new Wallet();
@@ -81,10 +83,14 @@ public class TestService {
         List<Car> carList = new LinkedList<>();
         Car car = new Car();
         carList.add(car);
+        car.setPerson(person);
 
         person.setCarList(carList);
 
-        walletRepository.save(wallet);
+        personRepository.save(person);
+        //walletRepository.save(wallet);
+        entityManager.flush();
+       System.out.println("------Auto flush at commit transaction ");
     }
 
     @Transactional
@@ -107,4 +113,6 @@ public class TestService {
     public Wallet getWalletByIdTest(){
         return walletRepository.findById(1L).get();
     }
+
+
 }

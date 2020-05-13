@@ -565,4 +565,46 @@ public class PersonService {
         }
           System.out.println("------Auto flush at commit transaction 5");
     }
+    @Transactional
+    public void unsaveTransientBeforeFlush() {
+            // RA LOI
+        System.out.println("------Auto flush at commit transaction ");
+        Wallet wallet = new Wallet();
+
+        Person  person = new Person();
+        person.setName("fdsfs");
+        
+
+        person.setWallet(wallet);
+
+        personRepository.save(person);
+        System.out.println("------Auto flush at commit transaction ");
+        //  entityManager.flush();
+        System.out.println("------Auto flush at commit transaction ");
+
+    }
+
+    @Transactional
+    public void unsaveTransientBeforeFlush2() {
+        // KHONG RA LOI
+        Person  person = new Person();
+        person.setName("fdsfs");
+
+        List<Person> personList = new ArrayList<>();
+        personList.add(person);
+
+        // personRepository.save(person);
+        System.out.println("------Auto flush at commit transaction ");
+
+        Wallet wallet = new Wallet();
+        wallet.setPersonList(personList);
+        walletRepository.save(wallet);
+
+        System.out.println("------Auto flush at commit transaction ");
+        entityManager.flush();
+        System.out.println("------Auto flush at commit transaction ");
+
+    }
+
+
 }

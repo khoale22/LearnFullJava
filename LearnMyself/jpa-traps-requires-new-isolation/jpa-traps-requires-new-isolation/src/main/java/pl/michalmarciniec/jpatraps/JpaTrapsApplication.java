@@ -47,7 +47,7 @@ public class JpaTrapsApplication implements CommandLineRunner {
 		//personService.saveNewWalletFlush3("KHoa5r45");
 
         //personService.createPerson3("hfdkjsf", new BigDecimal("0.14"));
-		personService.createPerson("trung2");
+		//personService.createPerson("trung2");
 
 		//personService.createPerson7("trung2", new BigDecimal("-0.14"));
 
@@ -77,7 +77,8 @@ public class JpaTrapsApplication implements CommandLineRunner {
 
 
 		//testService.deleteTheSameEntity2();
-		//testService.saveHangLoat6();
+	//	testService.saveHangLoat6();
 		//testService.deleteHangLoat();
+		personService.unsaveTransientBeforeFlush();
 	}
 }
