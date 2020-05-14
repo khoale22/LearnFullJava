@@ -2,30 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstraps/response.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnMyself/newwebshop" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/newwebshop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/John Harry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/Natasha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel3.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/blinkEyes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/blinkGirl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/cheer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/faceHaha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/haha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/lostOfLove.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/yes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/johndoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/laptop.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/mission.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/nguyenduchoang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootstraps/response.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstraps/response.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,9 +112,9 @@
     <session id="790300802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -120,13 +123,14 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="40" />
+          <entry key="css" value="6" />
+          <entry key="html" value="44" />
           <entry key="iml" value="1" />
           <entry key="java" value="45" />
           <entry key="rnc" value="3" />
@@ -134,7 +138,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="40" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="44" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="45" />
           <entry key="RNG Compact" value="3" />
@@ -142,13 +147,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2247" />
+          <entry key="css" value="5" />
+          <entry key="html" value="2340" />
           <entry key="java" value="1022" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2247" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="2340" />
           <entry key="JAVA" value="1022" />
         </counts>
       </usages-collector>
@@ -156,12 +163,12 @@
     <session id="1139914358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="8" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.42" value="1" />
@@ -169,39 +176,29 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="css" value="10" />
-          <entry key="html" value="7" />
           <entry key="java" value="69" />
-          <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="CSS" value="10" />
-          <entry key="HTML" value="7" />
           <entry key="JAVA" value="69" />
-          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="9" />
-          <entry key="html" value="93" />
           <entry key="java" value="1398" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="9" />
-          <entry key="HTML" value="93" />
           <entry key="JAVA" value="1398" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
@@ -214,13 +211,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bootstraps/response.html">
+        <entry file="file://$PROJECT_DIR$/src/BootstrapExample/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -228,15 +222,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10206">
-              <caret line="567" selection-start-line="567" selection-end-line="567" selection-end-column="6" />
+            <state relative-caret-position="177">
+              <caret line="4320" column="24" selection-start-line="4320" selection-start-column="16" selection-end-line="4320" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -249,6 +238,7 @@
         <option value="Class" />
         <option value="yet_unknown" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -271,12 +261,8 @@
       <find>toInstan</find>
       <find>assertEquals</find>
       <find>userService</find>
-      <find>container</find>
-      <find>text-center</find>
-      <find>row</find>
-      <find>.container-fluid</find>
-      <find>.container</find>
-      <find>container-fluid</find>
+      <find>.row</find>
+      <find>nav-item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -285,12 +271,6 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Audit-Cleanup" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/Vestcom-Batch" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/CHECK/ePlum-batch-monitor" value="PREVIEW" />
@@ -313,15 +293,18 @@
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-dao" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-model" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/TRANNING/pm-lib-util" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../CPS/spingBootJPA-master/spingBootJPA-master/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../New folder (4)/SAVEFILECOMPANY/testABC" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../dfs/spingBootJPA/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../test/test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../webshop/newwebshop/AGLABC" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/BankFactory.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Bank2.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Bank.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Prototype_Clone/Computer.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/MEthodFactory/Client.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Client.java" />
@@ -360,16 +343,19 @@
         <option value="$PROJECT_DIR$/src/LearnCssFull2/test454.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/phantukhoi-noituyen.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/inlline-block.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/posittion.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/LINKLAMTRANGWEB.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/Link.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/WEBCOBAN.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html" />
         <option value="$PROJECT_DIR$/src/JQuery/hide.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/posittion.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" />
         <option value="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" />
         <option value="$PROJECT_DIR$/src/bootstraps/response.html" />
+        <option value="$PROJECT_DIR$/src/TRANGWEBFULL/style.css" />
+        <option value="$PROJECT_DIR$/src/TRANGWEBFULL/Index.html" />
+        <option value="$PROJECT_DIR$/src/BootstrapExample/index.html" />
       </list>
     </option>
   </component>
@@ -380,9 +366,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="916" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="width" value="880" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -392,7 +378,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,13 +394,20 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-4.5.0-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="BootstrapExample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstraps" type="462c0819:PsiDirectoryNode" />
+              <item name="BootstrapExample" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TRANGWEBFULL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
@@ -425,6 +417,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -436,8 +430,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/maich/OneDrive/Desktop/LearnPhongVan/LEARNFULL44/LearnFullJava/untitled/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589448776508" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589469506296" />
     <property name="last_opened_file_path" value="D:/mockito-all-1.10.19.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -447,7 +442,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mrv\Desktop\KHOALEARNFULL\LearnFullJava\untitled\src" />
       <recent name="C:\Users\mrv\Desktop\KHOALEARNFULL\LearnFullJava\untitled\src\DesignPattern\MethodFactoryTest\MEthodFactory" />
       <recent name="C:\Users\mrv\Desktop\Learn44\LearnFullJava\untitled\src\JavaCollectionAndHashCodeEquals" />
     </key>
@@ -621,9 +615,8 @@
       <workItem from="1589202984326" duration="8027000" />
       <workItem from="1589286030263" duration="6035000" />
       <workItem from="1589293482247" duration="891000" />
-      <workItem from="1589440813136" duration="6299000" />
-      <workItem from="1589450473820" duration="173000" />
-      <workItem from="1589450892480" duration="846000" />
+      <workItem from="1589462790887" duration="35000" />
+      <workItem from="1589462841378" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -668,7 +661,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129417000" />
+    <option name="totallyTimeSpent" value="122813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,10 +673,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.1119403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.0892587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1263,20 +1256,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/reflect/Field.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/ZoneId.java" />
     <entry file="file://$PROJECT_DIR$/src/KienThucLa/TimeZone2.java" />
@@ -1357,7 +1336,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/List.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1399,7 +1384,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/mockito-all-1.10.19.jar!/org/mockito/Mockito.java" />
+    <entry file="jar://D:/mockito-all-1.10.19.jar!/org/mockito/Mockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="1552" column="24" selection-start-line="1552" selection-start-column="24" selection-end-line="1552" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1431,13 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1483,6 +1467,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/phantukhoi-noituyen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/posittion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1508,6 +1506,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/test454.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/WEBCOBAN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1515,70 +1520,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/test454.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/phantukhoi-noituyen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/bochon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="304">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JQuery/hide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="110" selection-start-line="7" selection-start-column="110" selection-end-line="7" selection-end-column="110" />
+        <state relative-caret-position="384">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/posittion.html">
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap-grid.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="323" selection-start-line="5" selection-start-column="323" selection-end-line="5" selection-end-column="323" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="5" column="6222" selection-start-line="5" selection-start-column="6222" selection-end-line="5" selection-end-column="6222" />
+        <state relative-caret-position="320">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bootstraps/response.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        <state relative-caret-position="352">
+          <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TRANGWEBFULL/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TRANGWEBFULL/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BootstrapExample/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="5" column="70745" selection-start-line="5" selection-start-column="70745" selection-end-line="5" selection-end-column="70745" />
+          <folding>
+            <element signature="e#28573#28828#2" expanded="true" />
+            <element signature="e#29425#29599#1" expanded="true" />
+            <element signature="e#29639#29894#1" expanded="true" />
+            <element signature="e#32212#32526#2" expanded="true" />
+            <element signature="e#33135#33309#1" expanded="true" />
+            <element signature="e#33349#33663#1" expanded="true" />
+            <element signature="e#62668#62876#2" expanded="true" />
+            <element signature="e#63105#63262#2" expanded="true" />
+            <element signature="e#63665#63821#2" expanded="true" />
+            <element signature="e#65308#65482#1" expanded="true" />
+            <element signature="e#79298#79555#2" expanded="true" />
+            <element signature="e#80422#80685#2" expanded="true" />
+            <element signature="e#110844#111040#2" expanded="true" />
+            <element signature="e#111086#111283#2" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10206">
-          <caret line="567" selection-start-line="567" selection-end-line="567" selection-end-column="6" />
+        <state relative-caret-position="177">
+          <caret line="4320" column="24" selection-start-line="4320" selection-start-column="16" selection-end-line="4320" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/BootstrapExample/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
