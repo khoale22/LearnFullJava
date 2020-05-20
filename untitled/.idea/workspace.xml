@@ -2,32 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ebd3be-7f76-4d13-9268-68a912cfe467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/John Harry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/Natasha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/carousel3.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/blinkEyes.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/blinkGirl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/cheer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/faceHaha.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/haha.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/lostOfLove.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/gif/yes.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/johndoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/laptop.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/logo.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/mission.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/images/nguyenduchoang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BootstrapExample/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/java/pl/michalmarciniec/jpatraps/requiresnew/PersonServiceTest22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/test/java/pl/michalmarciniec/jpatraps/requiresnew/PersonServiceTest33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/John Harry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/Natasha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/carousel0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/carousel1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/carousel2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/carousel3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/carousel3.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/gif/blinkEyes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/gif/blinkGirl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/gif/cheer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/gif/faceHaha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/gif/haha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/gif/lostOfLove.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/gif/yes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/johndoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/laptop.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/mission.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/images/nguyenduchoang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestUniut/MokitoSpy/test454.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/JpaTrapsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/JpaTrapsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnMyself/jpa-traps-requires-new-isolation/jpa-traps-requires-new-isolation/src/main/java/pl/michalmarciniec/jpatraps/requiresnew/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-learning-master/spring-boot-learning-master/spring-boot-18-testing-in-spring-boot/src/test/java/me/loda/spring/testinginspringboot/TodoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-learning-master/spring-boot-learning-master/spring-boot-18-testing-in-spring-boot/src/test/java/me/loda/spring/testinginspringboot/TodoServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/TestUniut/Mockito/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/TestUniut/Mockito/UserServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/TestUniut/MokitoSpy/SpyAnnotationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/TestUniut/MokitoSpy/SpyAnnotationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BootstrapExample/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/BootstrapExample/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BootstrapExample/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/BootstrapExample/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnCssFull2/box-shadow-TaoBóng.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnCssFull2/box-shadow-TaoBóng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearnCssFull2/inlline-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearnCssFull2/inlline-block.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TRANGWEBFULL/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TRANGWEBFULL/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TRANGWEBFULL/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bootstraps/response.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootstraps/response.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -112,51 +124,56 @@
     <session id="790300802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="9" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="44" />
+          <entry key="class" value="1" />
+          <entry key="css" value="12" />
+          <entry key="html" value="67" />
           <entry key="iml" value="1" />
-          <entry key="java" value="45" />
+          <entry key="java" value="64" />
+          <entry key="png" value="1" />
           <entry key="rnc" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="44" />
+          <entry key="CLASS" value="1" />
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="67" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="45" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="64" />
           <entry key="RNG Compact" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="2340" />
-          <entry key="java" value="1022" />
+          <entry key="css" value="183" />
+          <entry key="html" value="3251" />
+          <entry key="java" value="1198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="2340" />
-          <entry key="JAVA" value="1022" />
+          <entry key="CSS" value="183" />
+          <entry key="HTML" value="3251" />
+          <entry key="JAVA" value="1198" />
         </counts>
       </usages-collector>
     </session>
@@ -210,20 +227,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BootstrapExample/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="43">
+              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="4320" column="24" selection-start-line="4320" selection-start-column="16" selection-end-line="4320" selection-end-column="24" />
+            <state relative-caret-position="1145">
+              <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -235,16 +258,15 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="yet_unknown" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hashCode</find>
       <find>equals(</find>
       <find>hashcode()</find>
       <find>hashmap</find>
@@ -263,6 +285,18 @@
       <find>userService</find>
       <find>.row</find>
       <find>nav-item</find>
+      <find>collapse</find>
+      <find>navbar-branch</find>
+      <find>bg-light</find>
+      <find>ml-auto</find>
+      <find>navbar-brand</find>
+      <find>carousel-inner</find>
+      <find>text-center</find>
+      <find>hr</find>
+      <find>img</find>
+      <find>card</find>
+      <find>light-100</find>
+      <find>fa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -305,8 +339,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Prototype_Clone/Computer.java" />
-        <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/MEthodFactory/Client.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/Client.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/TPBank.java" />
         <option value="$PROJECT_DIR$/src/DesignPattern/MethodFactoryTest/VietComBank.java" />
@@ -331,31 +363,33 @@
         <option value="$PROJECT_DIR$/src/TestUniut/AssertTest.java" />
         <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserDao.java" />
         <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java" />
-        <option value="$PROJECT_DIR$/src/TestUniut/Assert_Assume/AssertTest.java" />
         <option value="$PROJECT_DIR$/src/TestUniut/MockitoBehavior/CustomList.java" />
-        <option value="$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java" />
-        <option value="$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/box-shadow-TaoBóng.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/BackgroundAndBoreder.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/CssText.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/test454.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/phantukhoi-noituyen.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/inlline-block.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/posittion.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/LINKLAMTRANGWEB.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/Link.html" />
         <option value="$PROJECT_DIR$/src/LearnCssFull2/WEBCOBAN.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html" />
         <option value="$PROJECT_DIR$/src/JQuery/hide.html" />
         <option value="$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" />
-        <option value="$PROJECT_DIR$/src/bootstraps/response.html" />
+        <option value="$PROJECT_DIR$/src/BootstrapExample/index.html" />
+        <option value="$PROJECT_DIR$/src/BootstrapExample/css/style.css" />
         <option value="$PROJECT_DIR$/src/TRANGWEBFULL/style.css" />
         <option value="$PROJECT_DIR$/src/TRANGWEBFULL/Index.html" />
-        <option value="$PROJECT_DIR$/src/BootstrapExample/index.html" />
+        <option value="$PROJECT_DIR$/src/bootstraps/response.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/bochon.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/inlline-block.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/Link.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/box-shadow-TaoBóng.html" />
+        <option value="$PROJECT_DIR$/src/LearnCssFull2/posittion.html" />
+        <option value="$PROJECT_DIR$/src/TestUniut/Assert_Assume/AssertTest.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/MokitoSpy/test454.java" />
+        <option value="$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java" />
       </list>
     </option>
   </component>
@@ -365,9 +399,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="880" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -378,6 +419,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,32 +436,28 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BootstrapExample" type="462c0819:PsiDirectoryNode" />
+              <item name="TestUniut" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BootstrapExample" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="TestUniut" type="462c0819:PsiDirectoryNode" />
+              <item name="MockitoBehavior" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TRANGWEBFULL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="TestUniut" type="462c0819:PsiDirectoryNode" />
+              <item name="MokitoSpy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +468,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/maich/OneDrive/Desktop/LearnPhongVan/LEARNFULL44/LearnFullJava/untitled/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589469506296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589900359522" />
     <property name="last_opened_file_path" value="D:/mockito-all-1.10.19.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -442,6 +480,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maich\OneDrive\Desktop\LearnPhongVan\LEARNFULL44\LearnFullJava\untitled\src\TRANGWEBFULL" />
+      <recent name="C:\Users\maich\OneDrive\Desktop\LearnPhongVan\LEARNFULL44\LearnFullJava\untitled\src" />
       <recent name="C:\Users\mrv\Desktop\KHOALEARNFULL\LearnFullJava\untitled\src\DesignPattern\MethodFactoryTest\MEthodFactory" />
       <recent name="C:\Users\mrv\Desktop\Learn44\LearnFullJava\untitled\src\JavaCollectionAndHashCodeEquals" />
     </key>
@@ -458,7 +498,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpyAnnotationTest.test">
+  <component name="RunManager" selected="JUnit.SpyAnnotationTest">
+    <configuration name="test454" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestUniut.MokitoSpy.test454" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestUniut.MokitoSpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpyAnnotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestUniut.MokitoSpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestUniut.MokitoSpy" />
+      <option name="MAIN_CLASS_NAME" value="TestUniut.MokitoSpy.SpyAnnotationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpyAnnotationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -475,7 +542,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpyAnnotationTest.test22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpyAnnotationTest.test45r4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -485,13 +552,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestUniut.MokitoSpy" />
       <option name="MAIN_CLASS_NAME" value="TestUniut.MokitoSpy.SpyAnnotationTest" />
-      <option name="METHOD_NAME" value="test22" />
+      <option name="METHOD_NAME" value="test45r4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenThenTest.thenAnswerTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhenThenTest.thenCallRealMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -501,58 +568,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestUniut.MockitoBehavior" />
       <option name="MAIN_CLASS_NAME" value="TestUniut.MockitoBehavior.WhenThenTest" />
-      <option name="METHOD_NAME" value="thenAnswerTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhenThenTest.thenReturnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestUniut.MockitoBehavior.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestUniut.MockitoBehavior" />
-      <option name="MAIN_CLASS_NAME" value="TestUniut.MockitoBehavior.WhenThenTest" />
-      <option name="METHOD_NAME" value="thenReturnTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhenThenTest.thenThrowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestUniut.MockitoBehavior.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestUniut.MockitoBehavior" />
-      <option name="MAIN_CLASS_NAME" value="TestUniut.MockitoBehavior.WhenThenTest" />
-      <option name="METHOD_NAME" value="thenThrowTest" />
+      <option name="METHOD_NAME" value="thenCallRealMethodTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.WhenThenTest.thenCallRealMethodTest" />
       <item itemvalue="JUnit.SpyAnnotationTest.test" />
-      <item itemvalue="JUnit.WhenThenTest.thenReturnTest" />
-      <item itemvalue="JUnit.WhenThenTest.thenThrowTest" />
-      <item itemvalue="JUnit.WhenThenTest.thenAnswerTest1" />
-      <item itemvalue="JUnit.SpyAnnotationTest.test22" />
+      <item itemvalue="JUnit.SpyAnnotationTest.test45r4" />
+      <item itemvalue="Application.test454" />
+      <item itemvalue="JUnit.SpyAnnotationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpyAnnotationTest" />
         <item itemvalue="JUnit.SpyAnnotationTest.test" />
-        <item itemvalue="JUnit.SpyAnnotationTest.test22" />
-        <item itemvalue="JUnit.WhenThenTest.thenAnswerTest1" />
-        <item itemvalue="JUnit.WhenThenTest.thenThrowTest" />
-        <item itemvalue="JUnit.WhenThenTest.thenReturnTest" />
+        <item itemvalue="Application.test454" />
+        <item itemvalue="JUnit.SpyAnnotationTest.test45r4" />
+        <item itemvalue="JUnit.WhenThenTest.thenCallRealMethodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -616,7 +651,13 @@
       <workItem from="1589286030263" duration="6035000" />
       <workItem from="1589293482247" duration="891000" />
       <workItem from="1589462790887" duration="35000" />
-      <workItem from="1589462841378" duration="4140000" />
+      <workItem from="1589462841378" duration="4205000" />
+      <workItem from="1589552826419" duration="1901000" />
+      <workItem from="1589611636396" duration="3316000" />
+      <workItem from="1589634507626" duration="6948000" />
+      <workItem from="1589681423716" duration="3482000" />
+      <workItem from="1589688529159" duration="2570000" />
+      <workItem from="1589892957373" duration="5287000" />
     </task>
     <task id="LOCAL-00001" summary="fdsjafs">
       <created>1586341116820</created>
@@ -629,39 +670,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpyAnnotationTest_test - 2020.05.10 at 08h 47m 50s.xml">
+    <history-entry file="WhenThenTest_thenCallRealMethodTest - 2020.05.19 at 20h 23m 51s.xml">
+      <configuration name="WhenThenTest.thenCallRealMethodTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyAnnotationTest_test - 2020.05.19 at 20h 26m 20s.xml">
       <configuration name="SpyAnnotationTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenThenTest_thenReturnTest - 2020.05.10 at 09h 02m 48s.xml">
-      <configuration name="WhenThenTest.thenReturnTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenThenTest_thenReturnTest - 2020.05.10 at 09h 03m 05s.xml">
-      <configuration name="WhenThenTest.thenReturnTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenThenTest_thenReturnTest - 2020.05.10 at 09h 03m 47s.xml">
-      <configuration name="WhenThenTest.thenReturnTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenThenTest_thenThrowTest - 2020.05.10 at 09h 17m 38s.xml">
-      <configuration name="WhenThenTest.thenThrowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenThenTest_thenThrowTest - 2020.05.10 at 09h 17m 47s.xml">
-      <configuration name="WhenThenTest.thenThrowTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenThenTest_thenAnswerTest1 - 2020.05.10 at 09h 18m 26s.xml">
-      <configuration name="WhenThenTest.thenAnswerTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenThenTest_thenAnswerTest1 - 2020.05.10 at 09h 19m 53s.xml">
-      <configuration name="WhenThenTest.thenAnswerTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpyAnnotationTest_test - 2020.05.10 at 09h 40m 48s.xml">
+    <history-entry file="SpyAnnotationTest_test - 2020.05.19 at 20h 26m 39s.xml">
       <configuration name="SpyAnnotationTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpyAnnotationTest_test22 - 2020.05.10 at 09h 41m 43s.xml">
-      <configuration name="SpyAnnotationTest.test22" configurationId="JUnit" />
+    <history-entry file="SpyAnnotationTest_test45r4 - 2020.05.19 at 20h 32m 52s.xml">
+      <configuration name="SpyAnnotationTest.test45r4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyAnnotationTest_test - 2020.05.19 at 20h 35m 52s.xml">
+      <configuration name="SpyAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyAnnotationTest_test - 2020.05.19 at 20h 36m 38s.xml">
+      <configuration name="SpyAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyAnnotationTest_test - 2020.05.19 at 20h 42m 18s.xml">
+      <configuration name="SpyAnnotationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyAnnotationTest - 2020.05.19 at 20h 51m 05s.xml">
+      <configuration name="SpyAnnotationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyAnnotationTest - 2020.05.19 at 20h 51m 14s.xml">
+      <configuration name="SpyAnnotationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyAnnotationTest - 2020.05.19 at 20h 51m 21s.xml">
+      <configuration name="SpyAnnotationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122813000" />
+    <option name="totallyTimeSpent" value="146382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,8 +717,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.0892587" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82100236" visible="true" weight="0.18456884" />
+      <window_info id="Structure" order="1" sideWeight="0.1789976" side_tool="true" weight="0.18456884" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -686,7 +727,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1603467" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7518911" weight="0.31423897" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8343419" weight="0.40589198" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8343419" weight="0.45008183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.07528642" />
@@ -703,7 +744,7 @@
       <window_info anchor="right" id="Database" order="5" weight="0.0037821482" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.06732224" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.16868381" />
@@ -1032,30 +1073,6 @@
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="89" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java</url>
           <line>25</line>
           <properties />
@@ -1066,12 +1083,6 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/CustomList.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java</url>
@@ -1087,33 +1098,99 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java</url>
-          <line>24</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java</url>
-          <line>27</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java</url>
-          <line>30</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java</url>
-          <line>32</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java</url>
-          <line>31</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/test454.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/test454.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java</url>
@@ -1186,6 +1263,8 @@
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="Arrays.toString(args)" language="JAVA" />
+        <watch expression="mockedObject.get(0)" language="JAVA" />
+        <watch expression="Mockito.verify(spyList).add(&quot;gpcoder.com&quot;);" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="fields[0].getAnnotation(Normalize.class)" language="JAVA" />
@@ -1204,7 +1283,12 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>Arrays.toString(args)</expression-string>
+        <expression-string>Mockito.verify(spyList).add(&quot;gpcoder.com&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mockedObject.get(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1214,7 +1298,7 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mockedObject.get(0)</expression-string>
+        <expression-string>Arrays.toString(args)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1248,27 +1332,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>Locale.getDefault()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/reflect/Field.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/ZoneId.java" />
-    <entry file="file://$PROJECT_DIR$/src/KienThucLa/TimeZone2.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Timestamp.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/format/DateTimeFormatter.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/Instant.java" />
-    <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/HashSetNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCollectionAndHashCodeEquals/ArrayListLinkket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1329,75 +1395,10 @@
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../mockito-all-1.10.19.jar!/org/mockito/stubbing/OngoingStubbing.java" />
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/Assert_Assume/AssumeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/Assert_Assume/AssertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/CustomList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/mockito-all-1.10.19.jar!/org/mockito/Mockito.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="1552" column="24" selection-start-line="1552" selection-start-column="24" selection-end-line="1552" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1418,91 +1419,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/LINKLAMTRANGWEB.html">
+    <entry file="file://$PROJECT_DIR$/src/JQuery/hide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="5" column="72570" selection-start-line="5" selection-start-column="72570" selection-end-line="5" selection-end-column="72570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TRANGWEBFULL/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TRANGWEBFULL/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="73" />
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TRANGWEBFULL/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BootstrapExample/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstraps/response.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BootstrapExample/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="117" column="14" lean-forward="true" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="9999" column="12" selection-start-line="9999" selection-start-column="1" selection-end-line="9999" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/bochon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/BackgroundAndBoreder.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/box-sizing-thietlapchieucaorong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/box-shadow-TaoBóng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="192">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/CssText.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="471">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/inlline-block.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/Link.html">
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/box-shadow-TaoBóng.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="288">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/phantukhoi-noituyen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="208">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/posittion.html">
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/LINKLAMTRANGWEB.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="352">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1513,99 +1548,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/Link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/WEBCOBAN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="201">
+          <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/bochon.html">
+    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/posittion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="96">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JQuery/hide.html">
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Assert_Assume/AssumeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="64">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Assert_Assume/AssertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearnCssFull2/BackGound2.html">
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="48">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstraps/response.html">
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TRANGWEBFULL/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TRANGWEBFULL/Index.html">
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="266">
+          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BootstrapExample/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/Mockito/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="5" column="70745" selection-start-line="5" selection-start-column="70745" selection-end-line="5" selection-end-column="70745" />
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
           <folding>
-            <element signature="e#28573#28828#2" expanded="true" />
-            <element signature="e#29425#29599#1" expanded="true" />
-            <element signature="e#29639#29894#1" expanded="true" />
-            <element signature="e#32212#32526#2" expanded="true" />
-            <element signature="e#33135#33309#1" expanded="true" />
-            <element signature="e#33349#33663#1" expanded="true" />
-            <element signature="e#62668#62876#2" expanded="true" />
-            <element signature="e#63105#63262#2" expanded="true" />
-            <element signature="e#63665#63821#2" expanded="true" />
-            <element signature="e#65308#65482#1" expanded="true" />
-            <element signature="e#79298#79555#2" expanded="true" />
-            <element signature="e#80422#80685#2" expanded="true" />
-            <element signature="e#110844#111040#2" expanded="true" />
-            <element signature="e#111086#111283#2" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <entry file="jar://D:/mockito-all-1.10.19.jar!/org/mockito/Matchers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="4320" column="24" selection-start-line="4320" selection-start-column="16" selection-end-line="4320" selection-end-column="24" />
+        <state relative-caret-position="117">
+          <caret line="321" column="25" selection-start-line="321" selection-start-column="25" selection-end-line="321" selection-end-column="25" />
+          <folding>
+            <element signature="e#11614#11615#0" expanded="true" />
+            <element signature="e#11674#11675#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BootstrapExample/index.html">
+    <entry file="jar://D:/mockito-all-1.10.19.jar!/org/mockito/stubbing/OngoingStubbing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="35" />
+        <state relative-caret-position="130">
+          <caret line="181" column="23" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/CustomList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="237" column="16" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/test454.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="461" selection-start-line="461" selection-end-line="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/MokitoSpy/SpyAnnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUniut/MockitoBehavior/WhenThenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1145">
+          <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

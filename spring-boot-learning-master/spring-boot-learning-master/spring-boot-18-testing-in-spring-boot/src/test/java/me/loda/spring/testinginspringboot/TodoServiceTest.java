@@ -42,7 +42,9 @@ public class TodoServiceTest {
      */
 
     /**
-     * Đối tượng TodoRepository sẽ được mock, chứ không phải bean trong context
+     * Đối tượng TodoRepository sẽ được mock, chứ không phải bean trong context ,
+     * nó sẽ không lỗi nếu  todoRepository ko dc đanh dau @Respository
+     * @Autowired và @Mock sẽ lỗi NẾU ( todoRepository ko dc đanh dau @Respository)
      */
     @MockBean
     TodoRepository todoRepository;
@@ -65,6 +67,7 @@ public class TodoServiceTest {
 
     @Test
     public void testCount() {
+
         Assert.assertEquals(10, todoService.countTodo());
     }
 

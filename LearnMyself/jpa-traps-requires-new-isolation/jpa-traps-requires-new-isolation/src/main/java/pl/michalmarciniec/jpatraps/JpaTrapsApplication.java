@@ -52,7 +52,7 @@ public class JpaTrapsApplication implements CommandLineRunner {
 		//personService.createPerson7("trung2", new BigDecimal("-0.14"));
 
 		//personService.testSaveHangloat1("trung2");
-		//personService.testSaveHangloat2("trung2");
+		//personService.testSaveHangloat2("trung2");createPerson
 		//personService.testSaveHangloat3("trung");
 		//personService.testSaveHangloat4("trung");
 
@@ -79,6 +79,6 @@ public class JpaTrapsApplication implements CommandLineRunner {
 		//testService.deleteTheSameEntity2();
 	//	testService.saveHangLoat6();
 		//testService.deleteHangLoat();
-		personService.unsaveTransientBeforeFlush();
+		//personService.unsaveTransientBeforeFlush();
 	}
 }

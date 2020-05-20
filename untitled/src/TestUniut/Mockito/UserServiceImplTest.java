@@ -26,11 +26,12 @@ public class UserServiceImplTest {
     private UserService userService;
 
     // Create a mock object to inject dependency (UserDao)
-    @InjectMocks
-    private UserService userService444;
+//    @InjectMocks
+//    private UserService userService444;
 
     @Before
     public void setUp() {
+        System.out.println("------RUUN----------");
         userService = new UserServiceImpl(userDao);
     }
 

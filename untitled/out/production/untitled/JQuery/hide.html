@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+BAI 5 fadein() , fadeOut() ,fadeToggle() phai mau , fadeTo(time , opacity ). fadeTo(time , opacity, callback )
+BAI 6 slideDown() , slideUp(), slideToggle() trượt phần từ ,  (time . callback)
+BAI 8 animate hiệu ứng chuuyển động animate có san thuoc tinh position  nen có thể sử dụng top ,left...
+BAI 9 $("#abc").stop(); dừng hiệu úng hiện tại COI LẠI
+
+BAi 10 : get : <h1>Trong đoạn văn <i>câu này được in nghiêng</i></h1>  hoac thay h1  = div
+$("h1").text()  :  Trong đoạn văn câu này được in nghiêng
+$("div").html() : Trong đoạn văn <i>câu này được in nghiêng</i>
+val() - lấy giá trị của một trường input   <input type="text" value="WEB CƠ BẢN">   KET QUA : WEB CƠ BẢN
+attr("tên thuộc tính") - lấy giá trị thuộc tính của một phần tử HTML  <a href="http://webcoban.vn" target="_blank">web cơ bản</a> KET QUA : _blank
+
+Bai 11 : remove() - dùng để xóa phần tử HTML. empty() - dùng để xóa nội dung của phần tử HTML.
+
+BAi12 : addClass() removeClass() toggleClass() = addClass()     + removeClass()
+
+
+<div style="width: 50px;" class="abcd ">Div 0</div>
+<div class="abc">Div 1</div>
+<div class="abc">Div 2</div>
+<div class="div3">Div 3</div>
+<input type="button" value="Click">
+
+<input type="radio" name="abc" value="radio1">
+<script>
+    $(document).ready(function(){
+        $('.abcd').hide("slow");
+    })
+
+    $("input[type = button]").click(function () {
+        // $("#abc").toggle()  hide + show;
+        $(".abc").hide(3000);
+        alert("show alert sau đó ẩn phần tử có class là abc ")
+    })
+
+    // time va callback
+    $("input[value = radio1]").click(function() {
+        $(".div3").hide(3000, function () {
+            alert("ẩn phần tử có class là abc rồi mới show alert");
+        })
+    })
+
+
+
+</script>
+</body>
+</html>

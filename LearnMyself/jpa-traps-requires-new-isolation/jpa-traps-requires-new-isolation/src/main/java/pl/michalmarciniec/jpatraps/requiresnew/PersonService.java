@@ -65,6 +65,14 @@ public class PersonService {
     }
 
     @Transactional
+    public void createPerson55(String name) {
+        Person person = new Person(name);
+        personRepository.save(person);  // ko save hoac ko persist se ko save person
+        // entityManager.persist(person);
+
+    }
+
+    @Transactional
     public long createPerson2(String name) {
         Person person = new Person(name);
         entityManager.persist(person);

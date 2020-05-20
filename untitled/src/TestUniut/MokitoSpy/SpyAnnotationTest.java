@@ -9,15 +9,17 @@ import org.mockito.Spy;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 
 @RunWith(MockitoJUnitRunner.class)
     public class SpyAnnotationTest {
 
-      //  @Spy
-        @Mock
+        @Spy
+//       @Mock
         private List<String> spyList = new ArrayList<>();
+
 
         @Test
         public void test() {
