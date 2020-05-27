@@ -2,6 +2,8 @@ package TestUniut.Assert_Assume;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.mockito.Matchers;
+
 
 import static org.hamcrest.core.Is.is;
 
@@ -76,5 +78,10 @@ public class AssertTest {
     @Test
     public void testAssertThatWMessage33(){
         Assert.assertThat("123",is("1234"));
+    }
+    @Test
+    public void testAssertThatWMessage44(){
+      
+
     }
 }

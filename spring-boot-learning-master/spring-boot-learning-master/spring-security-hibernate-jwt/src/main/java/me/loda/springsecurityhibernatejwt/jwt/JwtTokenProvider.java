@@ -26,9 +26,13 @@ import me.loda.springsecurityhibernatejwt.user.CustomUserDetails;
 @Component
 @Slf4j
 public class JwtTokenProvider {
+    // Đoạn JWT_SECRET này là bí mật, chỉ có phía server biết
     private final String JWT_SECRET = "lodaaaaaa";
+
+    //Thời gian có hiệu lực của chuỗi jwt
     private final long JWT_EXPIRATION = 604800000L;
 
+    // Tạo ra jwt từ thông tin user
     public String generateToken(CustomUserDetails userDetails) {
         // Lấy thông tin user
         Date now = new Date();

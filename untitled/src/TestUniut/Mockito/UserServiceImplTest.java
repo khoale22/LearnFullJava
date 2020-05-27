@@ -23,6 +23,7 @@ public class UserServiceImplTest {
 
     private UserDao userDao4;
 
+//    @Mock
     private UserService userService;
 
     // Create a mock object to inject dependency (UserDao)
