@@ -3,22 +3,45 @@ package TestUniut.MockitoBehavior;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.Spy;
 import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
 import org.mockito.stubbing.Answer;
 
 import java.util.Arrays;
 
+@RunWith(MockitoJUnitRunner.class)
 public class WhenThenTest {
 
+
+    @Mock
+   // @Spy
     private CustomList mockedObject;
 
-    @Before
-    public void prepareForTest() {
-        // Mock creation
-        mockedObject = Mockito.mock(CustomList.class);
+//    @Before
+//    public void prepareForTest() {
+//        // Mock creation
+//        mockedObject = Mockito.spy(CustomList.class);
+//
+//    }
+    @Test
+    public void testSpyAndMock() {
+        // Configure mock to return a specific value on a method call
+        Mockito.when(mockedObject.add("khoa")).thenReturn(true);
+      //  mockedObject.add("khoa");
+
+
+
+        // Verify behavior
+      //  Assert.assertEquals("gpcoder.com", mockedObject.get(1));
+        Mockito.verify(mockedObject).add("khoa");
+        Assert.assertEquals(mockedObject.size() , 1);
 
     }
+
 
     @Test
     public void thenReturnTest() {
